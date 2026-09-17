@@ -1,0 +1,75 @@
+{
+ "run_id": "BMKP_UNCOVER_2c_smc_r300_ujy_photcal4",
+ "family": "experiments/photometric_anchoring",
+ "target": "BMKP_UNCOVER_2c_smc_r300_ujy_photcal4",
+ "paper_section": "Section 2.1",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma",
+  "teff_cold",
+  "logg_cold",
+  "logL_cold"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 48124,
+ "n_samples_original": 48124,
+ "ndim": 17,
+ "driver": "bmkp_fit_uncover_2c_smc_r300_ujy_photcal4.py",
+ "spectrum_figure": "spectrum.png",
+ "summary": {
+  "teff": [
+   3974.9273049834815,
+   3994.885991621524,
+   4004.457426993901
+  ],
+  "logg": [
+   -3.4237311701136526,
+   -3.3126249944550445,
+   -3.1941731784642746
+  ],
+  "logL_star": [
+   10.242715424096179,
+   10.249617944410211,
+   10.256191720060503
+  ],
+  "phi": [
+   254.33545388534716,
+   335.30160699812814,
+   433.0739735463465
+  ]
+ },
+ "summary_cold_component": {
+  "teff": [
+   2004.3600708922004,
+   2018.977993502991,
+   2047.1446323964915
+  ],
+  "logg": [
+   -1.7958043938191905,
+   -0.7718531548964993,
+   -0.001803996063570068
+  ],
+  "logL_cold": [
+   8.953375526224884,
+   9.032449157284276,
+   9.090269478558586
+  ],
+  "phi": [
+   0.011001429608180721,
+   0.0639595933993764,
+   0.6658031152709091
+  ]
+ }
+}

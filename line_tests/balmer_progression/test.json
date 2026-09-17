@@ -1,0 +1,12 @@
+{
+ "test": "balmer_progression",
+ "paper_section": "Section 4.1",
+ "files": [
+  "balmer_depth.pdf",
+  "balmer_depth.png",
+  "balmer_progression.pdf",
+  "balmer_progression.png",
+  "balmer_two_scenarios.pdf",
+  "balmer_two_scenarios.png"
+ ]
+}

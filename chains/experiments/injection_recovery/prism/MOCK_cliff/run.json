@@ -1,0 +1,51 @@
+{
+ "run_id": "MOCK_cliff_m3",
+ "family": "experiments/injection_recovery/prism",
+ "target": "MOCK_cliff",
+ "paper_section": "Section 4.4",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 31642,
+ "n_samples_original": 31642,
+ "ndim": 14,
+ "driver": "fit_mock_cliff.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   4574.256141982712,
+   5088.708145950624,
+   5613.370800177116
+  ],
+  "logg": [
+   -2.9354110314753026,
+   -2.014820211607023,
+   -0.7009151639089994
+  ],
+  "logL_star": [
+   10.45365166508607,
+   10.542186766331469,
+   10.650921248539545
+  ],
+  "phi": [
+   1.4326626275645875,
+   39.87379063642173,
+   511.21452884977214
+  ]
+ },
+ "summary_cold_component": null
+}

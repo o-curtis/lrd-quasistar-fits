@@ -1,0 +1,50 @@
+{
+ "run_id": "egg_xitb_s123_zfix",
+ "family": "experiments/egg_model_finalization",
+ "target": "egg_xitb_s123_zfix",
+ "paper_section": "Appendix C",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "mh_idx",
+  "logmass",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 50000,
+ "n_samples_original": 68466,
+ "ndim": 13,
+ "driver": "fit_egg_model_finalization.py",
+ "spectrum_figure": "spectrum_model_finalization.png",
+ "summary": {
+  "teff": [
+   4491.1009290396305,
+   4495.221378399323,
+   4498.422749813436
+  ],
+  "logg": [
+   -2.8801573037901775,
+   -2.875882213557755,
+   -2.871476935800542
+  ],
+  "logL_star": [
+   9.81567471182436,
+   9.818329122930828,
+   9.820867693044423
+  ],
+  "phi": [
+   195.1401011744467,
+   197.25189756729577,
+   199.26589349326227
+  ]
+ },
+ "summary_cold_component": null
+}

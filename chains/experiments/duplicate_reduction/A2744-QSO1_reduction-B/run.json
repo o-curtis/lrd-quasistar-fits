@@ -1,0 +1,51 @@
+{
+ "run_id": "A2744QSO1B_m3",
+ "family": "experiments/duplicate_reduction",
+ "target": "A2744-QSO1_reduction-B",
+ "paper_section": "Section 4.4",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 32508,
+ "n_samples_original": 32508,
+ "ndim": 14,
+ "driver": "fit_A2744QSO1B.py",
+ "spectrum_figure": "spectrum.png",
+ "summary": {
+  "teff": [
+   4463.19023323926,
+   4667.348520374266,
+   4771.497848647183
+  ],
+  "logg": [
+   -3.2419959588866036,
+   -2.4616284358978167,
+   -1.7754632838681639
+  ],
+  "logL_star": [
+   10.71824293292276,
+   10.746480632095086,
+   10.775575091536279
+  ],
+  "phi": [
+   19.82885546562361,
+   90.92094148139023,
+   449.08486317744536
+  ]
+ },
+ "summary_cold_component": null
+}

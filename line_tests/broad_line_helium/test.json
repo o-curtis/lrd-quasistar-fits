@@ -1,0 +1,22 @@
+{
+ "test": "broad_line_helium",
+ "paper_section": "Section 4.6",
+ "files": [
+  "a5_heii_stack.png",
+  "a5_stack.json",
+  "a5_stack.py",
+  "broadonly_helium.json",
+  "egg_broad_heii_zoom.png",
+  "egg_singlet_check.png",
+  "heii_channels.pdf",
+  "heii_channels.png",
+  "ladder2_EGS-927271.json",
+  "ladder2_EGS-948917.json",
+  "ladder2_EGS-966323.json",
+  "ladder2_UDS-40579.json",
+  "ladder2_UDS-807469.json",
+  "ladder2_summary.json",
+  "ladder2_summary_prebandpass.json",
+  "measure_ladder2.py"
+ ]
+}

@@ -1,0 +1,9 @@
+{
+ "test": "egg_paschen_absorption",
+ "paper_section": "Section 4.1",
+ "files": [
+  "paschen_absorption.pdf",
+  "paschen_absorption.png",
+  "paschen_absorption.py"
+ ]
+}

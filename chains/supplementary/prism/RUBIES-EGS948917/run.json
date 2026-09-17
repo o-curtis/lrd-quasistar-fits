@@ -1,0 +1,51 @@
+{
+ "run_id": "RUBIES_EGS948917_m3",
+ "family": "supplementary/prism",
+ "target": "RUBIES-EGS948917",
+ "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 34110,
+ "n_samples_original": 34110,
+ "ndim": 14,
+ "driver": "fit_RUBIES_EGS948917.py",
+ "spectrum_figure": "spectrum.png",
+ "summary": {
+  "teff": [
+   4083.601094142102,
+   4360.610553398178,
+   4535.729097889388
+  ],
+  "logg": [
+   -2.318965431933916,
+   -1.6159524775412886,
+   -0.8607563913318943
+  ],
+  "logL_star": [
+   10.481921951786475,
+   10.53727211277877,
+   10.603022165197192
+  ],
+  "phi": [
+   1.2496025457762008,
+   10.00073919249658,
+   52.212376773989675
+  ]
+ },
+ "summary_cold_component": null
+}

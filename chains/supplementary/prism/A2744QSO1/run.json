@@ -1,0 +1,51 @@
+{
+ "run_id": "A2744QSO1_m3",
+ "family": "supplementary/prism",
+ "target": "A2744QSO1",
+ "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 35600,
+ "n_samples_original": 35600,
+ "ndim": 14,
+ "driver": "fit_A2744QSO1.py",
+ "spectrum_figure": "spectrum.png",
+ "summary": {
+  "teff": [
+   4711.699490373685,
+   4766.408405734292,
+   4916.258003728655
+  ],
+  "logg": [
+   -3.1060723030263153,
+   -2.726768635968666,
+   -2.0844642995162532
+  ],
+  "logL_star": [
+   10.620592002987609,
+   10.644416740824127,
+   10.666056458587683
+  ],
+  "phi": [
+   45.89880240201302,
+   172.80034466712755,
+   411.5812317211784
+  ]
+ },
+ "summary_cold_component": null
+}

@@ -1,0 +1,19 @@
+{
+ "source": "UDS-40579",
+ "line": "HeI1.083",
+ "z_sys": 3.1088187609125892,
+ "vmin": -718.1563640806329,
+ "vblue_edge": -1522.1191169635126,
+ "vred_edge": -373.60089855931955,
+ "depth": 0.774209229897179,
+ "sig_below": 31.001768815760467,
+ "phi": [
+  181.9,
+  304.2,
+  507.8
+ ],
+ "teff": 4379,
+ "logg": -3.11,
+ "rail_lo": 0.05,
+ "note": "HeI 1.083 resonance line traces fast ejecta (like Egg HeI); systemic-z uncertain ~300 km/s ([SIII] lines disagree); PRIMER-UDS 33823 = Kocevski reported absorber, first quantification"
+}

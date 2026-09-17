@@ -1,0 +1,54 @@
+{
+ "run_id": "egg_duste_sfree_zfix",
+ "family": "experiments/egg_model_finalization",
+ "target": "egg_duste_sfree_zfix",
+ "paper_section": "Appendix C",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 50000,
+ "n_samples_original": 65172,
+ "ndim": 17,
+ "driver": "fit_egg_model_finalization.py",
+ "spectrum_figure": "spectrum_model_finalization.png",
+ "summary": {
+  "teff": [
+   4486.162728591677,
+   4492.972421690675,
+   4497.509659210222
+  ],
+  "logg": [
+   -2.8455182091743563,
+   -2.8405786995260875,
+   -2.835823864843144
+  ],
+  "logL_star": [
+   9.791808152038708,
+   9.793196749492285,
+   9.794578546950163
+  ],
+  "phi": [
+   178.92661798653282,
+   181.46259517005515,
+   183.93134827231788
+  ]
+ },
+ "summary_cold_component": null
+}

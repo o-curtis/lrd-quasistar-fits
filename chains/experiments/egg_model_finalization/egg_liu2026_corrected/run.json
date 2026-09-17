@@ -1,0 +1,47 @@
+{
+ "run_id": "egg_liu2026_corrected",
+ "family": "experiments/egg_model_finalization",
+ "target": "egg_liu2026_corrected",
+ "paper_section": "Appendix C",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "xi_mtb",
+  "logmass",
+  "tage",
+  "AV",
+  "gas_logu",
+  "logL_dust",
+  "log_s"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 20455,
+ "n_samples_original": 20455,
+ "ndim": 10,
+ "driver": "fit_egg_model_finalization.py",
+ "spectrum_figure": "spectrum_model_finalization.png",
+ "summary": {
+  "teff": [
+   4425.48446496849,
+   4463.182603307473,
+   4495.9382969654625
+  ],
+  "logg": [
+   -3.223222773114844,
+   -3.150351641134999,
+   -3.0717848468746523
+  ],
+  "logL_star": [
+   9.878932780589711,
+   9.911267614137977,
+   9.939533403699675
+  ],
+  "phi": [
+   304.9723064901004,
+   360.6893573815897,
+   419.7402673379235
+  ]
+ },
+ "summary_cold_component": null
+}

@@ -1,0 +1,1045 @@
+[
+ {
+  "name": "EGS-28812",
+  "z": 4.226,
+  "sig_kms": 150.0,
+  "oiii_grating": null,
+  "z_prior": 4.22,
+  "z_flag": 0.006,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": null,
+   "HeII": null
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "EGS-29489",
+  "z": 4.5438,
+  "sig_kms": 111.5,
+  "oiii_grating": "G395M",
+  "z_prior": 4.54,
+  "z_flag": 0.0038,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": null,
+   "HeII": null
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "EGS-37124",
+  "z": 5.6818,
+  "sig_kms": 150.0,
+  "oiii_grating": "G395M",
+  "z_prior": 5.68,
+  "z_flag": 0.0018,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": {
+    "F": NaN,
+    "E": NaN,
+    "snr": 0.0,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": -9.888206113596975e-20,
+    "E": 1.311479591297576e-19,
+    "snr": -0.7539733122201008,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "EGS-42232",
+  "z": 4.9545,
+  "sig_kms": 85.4,
+  "oiii_grating": "G235M",
+  "z_prior": 4.95,
+  "z_flag": 0.0045,
+  "fluxes": {
+   "OII": {
+    "F": 1.870707461931978e-19,
+    "E": 8.379942369555262e-20,
+    "snr": 2.232363158878454,
+    "grating": "G235M"
+   },
+   "NeIII": {
+    "F": 2.794836356479033e-19,
+    "E": 9.017368371940226e-20,
+    "snr": 3.0993924626345066,
+    "grating": "G235M"
+   },
+   "Hb": {
+    "F": 5.107031756539566e-19,
+    "E": 1.0718663112326373e-19,
+    "snr": 4.764616354689347,
+    "grating": "G235M"
+   },
+   "HeII": {
+    "F": -3.825888179613047e-20,
+    "E": 1.42618081756637e-19,
+    "snr": -0.2682610881095378,
+    "grating": "G235M"
+   }
+  },
+  "NeIII_OII": {
+   "value": 1.1117166177788245,
+   "kind": "lower_limit",
+   "snr_neiii": 3.0993924626345066,
+   "snr_oii": 2.232363158878454
+  },
+  "HeII_Hb": {
+   "value": 0.8377747890876979,
+   "kind": "upper_limit",
+   "snr_heii": -0.2682610881095378,
+   "snr_hb": 4.764616354689347
+  }
+ },
+ {
+  "name": "EGS-42803",
+  "z": 7.1552,
+  "sig_kms": 82.7,
+  "oiii_grating": "G395M",
+  "z_prior": 7.15,
+  "z_flag": 0.0052,
+  "fluxes": {
+   "OII": {
+    "F": 4.580263971619912e-19,
+    "E": 1.3526578488489532e-19,
+    "snr": 3.3861216090362363,
+    "grating": "G395M"
+   },
+   "NeIII": {
+    "F": 1.7726764178197708e-19,
+    "E": 1.11226892828068e-19,
+    "snr": 1.593748034083748,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": 2.4772908699307315e-19,
+    "E": 9.707697675557726e-20,
+    "snr": 2.551883003287292,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": 3.762879060300555e-21,
+    "E": 6.886607143370998e-20,
+    "snr": 0.05464053607185473,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": 0.7285184446829828,
+   "kind": "upper_limit",
+   "snr_neiii": 1.593748034083748,
+   "snr_oii": 3.3861216090362363
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "hb_undetected",
+   "snr_hb": 2.551883003287292
+  }
+ },
+ {
+  "name": "EGS-53254",
+  "z": 6.6234,
+  "sig_kms": 119.4,
+  "oiii_grating": "G395M",
+  "z_prior": 6.62,
+  "z_flag": 0.0034,
+  "fluxes": {
+   "OII": {
+    "F": -2.7310189656378514e-20,
+    "E": 4.596536711867279e-19,
+    "snr": -0.05941471017922998,
+    "grating": "G395M"
+   },
+   "NeIII": {
+    "F": 3.6480378530957705e-20,
+    "E": 3.4242038683281466e-19,
+    "snr": 0.10653681829046324,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": 8.649650315204521e-19,
+    "E": 1.7428509172043718e-19,
+    "snr": 4.962931843349535,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": 4.003626493912844e-18,
+    "E": 6.920390513292024e-18,
+    "snr": 0.5785260941883354,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "both_undetected",
+   "snr_neiii": 0.10653681829046324,
+   "snr_oii": -0.05941471017922998
+  },
+  "HeII_Hb": {
+   "value": 24.002324699047875,
+   "kind": "upper_limit",
+   "snr_heii": 0.5785260941883354,
+   "snr_hb": 4.962931843349535
+  }
+ },
+ {
+  "name": "EGS-61496",
+  "z": 5.0799,
+  "sig_kms": 40.9,
+  "oiii_grating": "G395M",
+  "z_prior": 5.08,
+  "z_flag": 0.0001,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": {
+    "F": 2.420251197734571e-19,
+    "E": 1.5644759059987901e-19,
+    "snr": 1.547004455903997,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": NaN,
+    "E": NaN,
+    "snr": 0.0,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "hb_undetected",
+   "snr_hb": 1.547004455903997
+  }
+ },
+ {
+  "name": "EGS-926125",
+  "z": 5.2874,
+  "sig_kms": 115.9,
+  "oiii_grating": "G395M",
+  "z_prior": 5.28,
+  "z_flag": 0.0074,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": {
+    "F": 1.488452542531465e-18,
+    "E": 1.3479419477878683e-19,
+    "snr": 11.042408354263262,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": 2.638370895844622e-21,
+    "E": 1.6356905016424094e-19,
+    "snr": 0.016130012940684155,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": 0.32967604708320725,
+   "kind": "upper_limit",
+   "snr_heii": 0.016130012940684155,
+   "snr_hb": 11.042408354263262
+  }
+ },
+ {
+  "name": "EGS-927271",
+  "z": 6.7878,
+  "sig_kms": 101.6,
+  "oiii_grating": "G395M",
+  "z_prior": 6.78,
+  "z_flag": 0.0078,
+  "fluxes": {
+   "OII": {
+    "F": 2.6772359544723397e-19,
+    "E": 1.4156741305805973e-19,
+    "snr": 1.8911385725289405,
+    "grating": "G395M"
+   },
+   "NeIII": {
+    "F": 3.012905547615145e-19,
+    "E": 1.4679109750149267e-19,
+    "snr": 2.0525124472105727,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": 6.099240728040852e-19,
+    "E": 1.3107938456928354e-19,
+    "snr": 4.653089231447396,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": -1.139424749406802e-19,
+    "E": 1.3220059053080704e-19,
+    "snr": -0.8618908166989457,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "both_undetected",
+   "snr_neiii": 2.0525124472105727,
+   "snr_oii": 1.8911385725289405
+  },
+  "HeII_Hb": {
+   "value": 0.6502477755453576,
+   "kind": "upper_limit",
+   "snr_heii": -0.8618908166989457,
+   "snr_hb": 4.653089231447396
+  }
+ },
+ {
+  "name": "EGS-948917",
+  "z": 6.7291,
+  "sig_kms": 92.1,
+  "oiii_grating": "G395M",
+  "z_prior": 6.73,
+  "z_flag": 0.0009,
+  "fluxes": {
+   "OII": {
+    "F": 8.208298178661313e-19,
+    "E": 2.1018905100302921e-19,
+    "snr": 3.905197791935897,
+    "grating": "G395M"
+   },
+   "NeIII": {
+    "F": 5.652435906055604e-19,
+    "E": 1.4291031662180215e-19,
+    "snr": 3.9552329318632817,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": 1.627591696003225e-18,
+    "E": 1.1215354041125983e-19,
+    "snr": 14.51217402531343,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": 8.689951653575932e-20,
+    "E": 9.097083643513621e-20,
+    "snr": 0.9552458781416195,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": 0.6886245824682573,
+   "err": 0.2478035746528715,
+   "kind": "detection",
+   "snr_neiii": 3.9552329318632817,
+   "snr_oii": 3.905197791935897
+  },
+  "HeII_Hb": {
+   "value": 0.16767873046758763,
+   "kind": "upper_limit",
+   "snr_heii": 0.9552458781416195,
+   "snr_hb": 14.51217402531343
+  }
+ },
+ {
+  "name": "EGS-952625",
+  "z": 5.1072,
+  "sig_kms": 128.2,
+  "oiii_grating": "G395M",
+  "z_prior": 5.11,
+  "z_flag": 0.0028,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": {
+    "F": 3.1910289637240656e-19,
+    "E": 2.1535261976182682e-19,
+    "snr": 1.4817692801941498,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": 1.0752069397936316e-19,
+    "E": 3.267067268779455e-19,
+    "snr": 0.3291046223836458,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "hb_undetected",
+   "snr_hb": 1.4817692801941498
+  }
+ },
+ {
+  "name": "EGS-966323",
+  "z": 8.3561,
+  "sig_kms": 97.0,
+  "oiii_grating": "G395M",
+  "z_prior": 8.35,
+  "z_flag": 0.0061,
+  "fluxes": {
+   "OII": {
+    "F": 1.3433571639177522e-20,
+    "E": 8.534290509924839e-20,
+    "snr": 0.15740701143879657,
+    "grating": "G395M"
+   },
+   "NeIII": {
+    "F": 5.8619168078875865e-19,
+    "E": 1.0008435898100006e-19,
+    "snr": 5.8569759226817935,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": NaN,
+    "E": NaN,
+    "snr": 0.0,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": -2.537245822918971e-18,
+    "E": 5.746145691243732e-18,
+    "snr": -0.44155612461851684,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": 2.2895544357477826,
+   "kind": "lower_limit",
+   "snr_neiii": 5.8569759226817935,
+   "snr_oii": 0.15740701143879657
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "UDS-119957",
+  "z": 4.1482,
+  "sig_kms": 150.0,
+  "oiii_grating": null,
+  "z_prior": 4.15,
+  "z_flag": 0.0018,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": null,
+   "HeII": null
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "UDS-144195",
+  "z": 3.3542,
+  "sig_kms": 150.0,
+  "oiii_grating": null,
+  "z_prior": 3.36,
+  "z_flag": 0.0058,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": null,
+   "HeII": null
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "UDS-149298",
+  "z": 5.1491,
+  "sig_kms": 109.2,
+  "oiii_grating": "G395M",
+  "z_prior": 5.15,
+  "z_flag": 0.0009,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": {
+    "F": 1.9511210283595104e-18,
+    "E": 2.615583332581686e-19,
+    "snr": 7.459601856514644,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": 2.964242374238161e-19,
+    "E": 2.8849376967511423e-19,
+    "snr": 1.0274892166913439,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": 0.44358155975236124,
+   "kind": "upper_limit",
+   "snr_heii": 1.0274892166913439,
+   "snr_hb": 7.459601856514644
+  }
+ },
+ {
+  "name": "UDS-167741",
+  "z": 4.1152,
+  "sig_kms": 150.0,
+  "oiii_grating": null,
+  "z_prior": 4.12,
+  "z_flag": 0.0048,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": null,
+   "HeII": null
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "UDS-172350",
+  "z": 5.5845,
+  "sig_kms": 108.9,
+  "oiii_grating": "G395M",
+  "z_prior": 5.58,
+  "z_flag": 0.0045,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": {
+    "F": 7.137839058308362e-19,
+    "E": 1.2359556518756382e-19,
+    "snr": 5.775157909166284,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": NaN,
+    "E": NaN,
+    "snr": 0.0,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "UDS-23438",
+  "z": 3.6838,
+  "sig_kms": 150.0,
+  "oiii_grating": null,
+  "z_prior": 3.69,
+  "z_flag": 0.0062,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": null,
+   "HeII": null
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "UDS-29813",
+  "z": 5.4409,
+  "sig_kms": 120.2,
+  "oiii_grating": "G395M",
+  "z_prior": 5.44,
+  "z_flag": 0.0009,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": {
+    "F": NaN,
+    "E": NaN,
+    "snr": 0.0,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": 8.438128558306932e-19,
+    "E": 3.8321303975468535e-19,
+    "snr": 2.201941918184365,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "UDS-31747",
+  "z": 4.13,
+  "sig_kms": 150.0,
+  "oiii_grating": null,
+  "z_prior": 4.13,
+  "z_flag": 0.0,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": null,
+   "HeII": null
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "UDS-33938",
+  "z": 6.6311,
+  "sig_kms": 106.4,
+  "oiii_grating": "G395M",
+  "z_prior": 6.63,
+  "z_flag": 0.0011,
+  "fluxes": {
+   "OII": {
+    "F": 2.2059678699392003e-19,
+    "E": 3.6068794492905376e-19,
+    "snr": 0.611600110553489,
+    "grating": "G395M"
+   },
+   "NeIII": {
+    "F": -2.9923801299026733e-19,
+    "E": 2.449168615504902e-19,
+    "snr": -1.221794249264372,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": 3.6766684790187644e-20,
+    "E": 1.9893367439479635e-19,
+    "snr": 0.18481880909323503,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": NaN,
+    "E": NaN,
+    "snr": 0.0,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "both_undetected",
+   "snr_neiii": -1.221794249264372,
+   "snr_oii": 0.611600110553489
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "hb_undetected",
+   "snr_hb": 0.18481880909323503
+  }
+ },
+ {
+  "name": "UDS-36171",
+  "z": 6.4674,
+  "sig_kms": 103.8,
+  "oiii_grating": "G395M",
+  "z_prior": 6.47,
+  "z_flag": 0.0026,
+  "fluxes": {
+   "OII": {
+    "F": -9.241690070390793e-20,
+    "E": 8.980965305072151e-19,
+    "snr": -0.10290308175638306,
+    "grating": "G395M"
+   },
+   "NeIII": {
+    "F": -6.397197360781871e-19,
+    "E": 3.1212267081977306e-19,
+    "snr": -2.0495779252368895,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": -1.6563702436781136e-19,
+    "E": 1.764809572026477e-19,
+    "snr": -0.9385546576428381,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": 2.5565070807813473e-19,
+    "E": 1.6254385255907335e-19,
+    "snr": 1.5728106849517642,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "both_undetected",
+   "snr_neiii": -2.0495779252368895,
+   "snr_oii": -0.10290308175638306
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "hb_undetected",
+   "snr_hb": -0.9385546576428381
+  }
+ },
+ {
+  "name": "UDS-40579",
+  "z": 3.1078,
+  "sig_kms": 150.0,
+  "oiii_grating": null,
+  "z_prior": 3.11,
+  "z_flag": 0.0022,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": null,
+   "HeII": null
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "no_coverage"
+  }
+ },
+ {
+  "name": "UDS-50716",
+  "z": 6.1694,
+  "sig_kms": 73.3,
+  "oiii_grating": "G395M",
+  "z_prior": 6.17,
+  "z_flag": 0.0006,
+  "fluxes": {
+   "OII": null,
+   "NeIII": {
+    "F": NaN,
+    "E": NaN,
+    "snr": 0.0,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": 4.719368421221707e-21,
+    "E": 1.6262707255009928e-19,
+    "snr": 0.029019574337894122,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": -4.373987515955118e-21,
+    "E": 1.5309003672878727e-19,
+    "snr": -0.028571340169602475,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "hb_undetected",
+   "snr_hb": 0.029019574337894122
+  }
+ },
+ {
+  "name": "UDS-53692",
+  "z": 5.2792,
+  "sig_kms": 135.8,
+  "oiii_grating": "G395M",
+  "z_prior": 5.28,
+  "z_flag": 0.0008,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": {
+    "F": 5.499251260170411e-19,
+    "E": 1.9684100038265847e-19,
+    "snr": 2.7937529526266776,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": -1.9714463138481911e-19,
+    "E": 2.3000738691950054e-19,
+    "snr": -0.8571230429821676,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "hb_undetected",
+   "snr_hb": 2.7937529526266776
+  }
+ },
+ {
+  "name": "UDS-807469",
+  "z": 6.7775,
+  "sig_kms": 102.0,
+  "oiii_grating": "G395M",
+  "z_prior": 6.78,
+  "z_flag": 0.0025,
+  "fluxes": {
+   "OII": {
+    "F": 1.283330762449277e-19,
+    "E": 1.6158428281578315e-19,
+    "snr": 0.7942175687423507,
+    "grating": "G395M"
+   },
+   "NeIII": {
+    "F": 5.412378881182875e-19,
+    "E": 1.2784542294385593e-19,
+    "snr": 4.233533556817089,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": 1.1718300537235169e-18,
+    "E": 1.2355958339983807e-19,
+    "snr": 9.483926875436945,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": -3.959011260495293e-20,
+    "E": 1.0132170536735311e-19,
+    "snr": -0.3907367376162351,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": 1.116523378566744,
+   "kind": "lower_limit",
+   "snr_neiii": 4.233533556817089,
+   "snr_oii": 0.7942175687423507
+  },
+  "HeII_Hb": {
+   "value": 0.2593935145597292,
+   "kind": "upper_limit",
+   "snr_heii": -0.3907367376162351,
+   "snr_hb": 9.483926875436945
+  }
+ },
+ {
+  "name": "UDS-830237",
+  "z": 5.1258,
+  "sig_kms": 107.9,
+  "oiii_grating": "G395M",
+  "z_prior": 5.12,
+  "z_flag": 0.0058,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": {
+    "F": 8.121345904603419e-19,
+    "E": 2.059684170624054e-19,
+    "snr": 3.943005447355927,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": -3.3812405273347863e-19,
+    "E": 2.5700099572860526e-19,
+    "snr": -1.315652695332511,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": 0.9493537108778834,
+   "kind": "upper_limit",
+   "snr_heii": -1.315652695332511,
+   "snr_hb": 3.943005447355927
+  }
+ },
+ {
+  "name": "UDS-848745",
+  "z": 7.1143,
+  "sig_kms": 88.0,
+  "oiii_grating": "G395M",
+  "z_prior": 7.11,
+  "z_flag": 0.0043,
+  "fluxes": {
+   "OII": {
+    "F": -9.621717815480698e-20,
+    "E": 2.1356950255448754e-19,
+    "snr": -0.4505192782862773,
+    "grating": "G395M"
+   },
+   "NeIII": {
+    "F": 1.6295935553441503e-19,
+    "E": 1.4784762686318883e-19,
+    "snr": 1.1022115064803162,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": 6.9360879458781435e-19,
+    "E": 1.30268326561666e-19,
+    "snr": 5.324462307109442,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": -5.253664061256399e-20,
+    "E": 1.6030284892073155e-19,
+    "snr": -0.3277336676564178,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "both_undetected",
+   "snr_neiii": 1.1022115064803162,
+   "snr_oii": -0.4505192782862773
+  },
+  "HeII_Hb": {
+   "value": 0.6933426313430476,
+   "kind": "upper_limit",
+   "snr_heii": -0.3277336676564178,
+   "snr_hb": 5.324462307109442
+  }
+ },
+ {
+  "name": "UDS-967770",
+  "z": 6.5879,
+  "sig_kms": 35.6,
+  "oiii_grating": "G395M",
+  "z_prior": 6.59,
+  "z_flag": 0.0021,
+  "fluxes": {
+   "OII": {
+    "F": NaN,
+    "E": NaN,
+    "snr": 0.0,
+    "grating": "G395M"
+   },
+   "NeIII": {
+    "F": NaN,
+    "E": NaN,
+    "snr": 0.0,
+    "grating": "G395M"
+   },
+   "Hb": {
+    "F": 9.863333866585025e-20,
+    "E": 8.915593529994098e-20,
+    "snr": 1.10630142944522,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": -1.9284515516828074e-20,
+    "E": 8.846019390741651e-20,
+    "snr": -0.21800218454202663,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "hb_undetected",
+   "snr_hb": 1.10630142944522
+  }
+ },
+ {
+  "name": "UDS-970351",
+  "z": 5.2843,
+  "sig_kms": 147.7,
+  "oiii_grating": "G395M",
+  "z_prior": 5.28,
+  "z_flag": 0.0043,
+  "fluxes": {
+   "OII": null,
+   "NeIII": null,
+   "Hb": {
+    "F": 4.0533640869428173e-19,
+    "E": 2.0549278440707637e-19,
+    "snr": 1.9725092044658845,
+    "grating": "G395M"
+   },
+   "HeII": {
+    "F": 2.820642571618892e-19,
+    "E": 2.6270317917509375e-19,
+    "snr": 1.0736994430276428,
+    "grating": "G395M"
+   }
+  },
+  "NeIII_OII": {
+   "value": null,
+   "kind": "no_coverage"
+  },
+  "HeII_Hb": {
+   "value": null,
+   "kind": "hb_undetected",
+   "snr_hb": 1.9725092044658845
+  }
+ }
+]

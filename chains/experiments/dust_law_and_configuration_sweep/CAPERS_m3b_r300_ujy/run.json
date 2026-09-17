@@ -1,0 +1,51 @@
+{
+ "run_id": "CAPERS_m3b_r300_ujy",
+ "family": "experiments/dust_law_and_configuration_sweep",
+ "target": "CAPERS_m3b_r300_ujy",
+ "paper_section": "Section 2.3",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 41586,
+ "n_samples_original": 41586,
+ "ndim": 14,
+ "driver": "fit_capers_m3_r300_ujy.py",
+ "spectrum_figure": "spectrum.png",
+ "summary": {
+  "teff": [
+   4094.623155473666,
+   4108.791075061219,
+   4123.867172164026
+  ],
+  "logg": [
+   -3.444783444547292,
+   -3.3304405341163594,
+   -3.1846008436139313
+  ],
+  "logL_star": [
+   9.725522507326245,
+   9.737845856758128,
+   9.748734037828882
+  ],
+  "phi": [
+   280.1576309454694,
+   391.935778892578,
+   509.99551092827255
+  ]
+ },
+ "summary_cold_component": null
+}

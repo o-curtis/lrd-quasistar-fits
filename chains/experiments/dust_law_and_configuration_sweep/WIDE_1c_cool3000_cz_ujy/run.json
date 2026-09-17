@@ -1,0 +1,51 @@
+{
+ "run_id": "WIDE_1c_cool3000_cz_ujy",
+ "family": "experiments/dust_law_and_configuration_sweep",
+ "target": "WIDE_1c_cool3000_cz_ujy",
+ "paper_section": "Section 2.3",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 50000,
+ "n_samples_original": 61898,
+ "ndim": 14,
+ "driver": "fit_wide_1c_cool3000_cz_ujy.py",
+ "spectrum_figure": "spectrum.png",
+ "summary": {
+  "teff": [
+   2015.9473248081815,
+   2057.8783633959115,
+   2105.556799280883
+  ],
+  "logg": [
+   -0.013684092214381337,
+   0.21803439786091672,
+   0.3845136877851836
+  ],
+  "logL_star": [
+   8.948511703786583,
+   9.01228074409606,
+   9.076743171430305
+  ],
+  "phi": [
+   0.005021445704477685,
+   0.006897061039204467,
+   0.011834326810470506
+  ]
+ },
+ "summary_cold_component": null
+}

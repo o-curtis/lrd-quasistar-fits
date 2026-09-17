@@ -1,0 +1,75 @@
+{
+ "run_id": "UNCOVER_2c_smc_r300_ujy_photcal",
+ "family": "experiments/dust_law_and_configuration_sweep",
+ "target": "UNCOVER_2c_smc_r300_ujy_photcal",
+ "paper_section": "Section 2.3",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma",
+  "teff_cold",
+  "logg_cold",
+  "logL_cold"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 50000,
+ "n_samples_original": 61228,
+ "ndim": 17,
+ "driver": "fit_uncover_2c_smc_r300_ujy_photcal.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   3965.5989087988924,
+   3990.870575034733,
+   4003.3302907612483
+  ],
+  "logg": [
+   -3.4397992733248857,
+   -3.3680395719707157,
+   -3.169055884347488
+  ],
+  "logL_star": [
+   10.215678002148813,
+   10.227217316596228,
+   10.234283775055705
+  ],
+  "phi": [
+   234.91745027169216,
+   382.6498765178569,
+   451.592712305794
+  ]
+ },
+ "summary_cold_component": {
+  "teff": [
+   2005.1436097857995,
+   2018.6454612997582,
+   2044.0893299665559
+  ],
+  "logg": [
+   -1.840796319175166,
+   -1.0459200905653303,
+   -0.45102776218970675
+  ],
+  "logL_cold": [
+   8.722955385404742,
+   8.86904246611271,
+   8.990455887297873
+  ],
+  "phi": [
+   0.030447710567088608,
+   0.12022568227551678,
+   0.7479254229729011
+  ]
+ }
+}

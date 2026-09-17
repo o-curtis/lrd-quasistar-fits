@@ -1,0 +1,28 @@
+#!/usr/bin/env python3
+"""WIDE — 2-component (hot+cold) with A_V FREE.
+
+Exact copy of fit_wide_2c_v2.py (hot+cold TLUSTY + galaxy, cold T FORCED [2000,3000], [M/H]=-1,
+sigma=0, xi=2, dust1=0, Calzetti, H2O x5) EXCEPT the shared A_V (dust2_gal) is uncapped
+(av_cap 0.5 -> 8)."""
+import os, argparse
+import m3port_neb as M
+import fit_wide_m3 as base
+
+OUT  = os.path.dirname(os.path.abspath(__file__))
+STEM = 'WIDE_2c_neb_ujy_long'
+DUST_LAW = 'calzetti'
+USE_GALAXY = True
+TWO_COMP = True
+Z = base.Z
+LABEL = base.LABEL
+build_obs = base.build_obs
+MODEL_KWARGS = dict(av_cap=8.0, cold_hi=3000.0)   # A_V FREE, cold T<=3000 (as WIDE_2c_v2)
+
+if __name__ == '__main__':
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--pool', type=int, default=1)
+    ap.add_argument('--dry-run', action='store_true')
+    a = ap.parse_args()
+    M.fit(STEM, base.Z, MODEL_KWARGS, base.build_obs, base.WEIGHTS,
+          out_dir=OUT, dust_law=DUST_LAW, two_comp=True, use_galaxy=USE_GALAXY,
+          pool_n=a.pool, dry_run=a.dry_run, source_label=base.LABEL + ' (2c, A_V free)')

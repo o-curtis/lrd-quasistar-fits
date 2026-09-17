@@ -1,0 +1,55 @@
+{
+ "run_id": "BMKP_egg_duste_sfree_zfree_nmask",
+ "family": "primary",
+ "target": "J1025+1402",
+ "paper_section": "Section 4.1, Table 1",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 50000,
+ "n_samples_original": 56347,
+ "ndim": 18,
+ "driver": "fit_egg_bmkp_nmask.py",
+ "spectrum_figure": "spectrum.pdf",
+ "summary": {
+  "teff": [
+   4500.298295100456,
+   4502.435232293372,
+   4504.984915293127
+  ],
+  "logg": [
+   -3.108461325274682,
+   -3.05361090942889,
+   -3.014115433206701
+  ],
+  "logL_star": [
+   9.89145751267845,
+   9.89227952025664,
+   9.89306505926589
+  ],
+  "phi": [
+   273.2285674277118,
+   299.2053434566003,
+   338.93380131372504
+  ]
+ },
+ "summary_cold_component": null
+}

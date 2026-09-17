@@ -1,0 +1,17 @@
+{
+ "test": "egg_balmer_and_helium_absorption",
+ "paper_section": "Section 4.1, Figure 3",
+ "files": [
+  "e4_egg_absorption.pdf",
+  "e4_egg_absorption.png",
+  "e4_egg_absorption.py",
+  "e4_egg_absorption_hbmodel.pdf",
+  "e4_egg_absorption_hbmodel.py",
+  "e4_egg_absorption_hbmodelB.pdf",
+  "egg_fire_hei10830.png",
+  "egg_fire_hei10830_pcygni.png",
+  "egg_wind_absorption.pdf",
+  "egg_wind_absorption.png",
+  "egg_wind_absorption.py"
+ ]
+}

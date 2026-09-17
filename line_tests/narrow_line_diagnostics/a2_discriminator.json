@@ -1,0 +1,34 @@
+{
+ "J012930.87+062843.32": {
+  "sig_int": 150.00000000000003,
+  "dv_int": -32.30310084874496,
+  "R_int": 5.165276709283076,
+  "R_narrow": 6.090371145021688,
+  "snr_intOIII": 12.964289986257603,
+  "verdict": "HOST OUTFLOW (int ratio ~ narrow ratio)"
+ },
+ "J094411.31-024908.65": {
+  "sig_int": 164.7283911089461,
+  "dv_int": -28.40924949220644,
+  "R_int": 5.260574499166529,
+  "R_narrow": 6.786163333196985,
+  "snr_intOIII": 13.286126862485473,
+  "verdict": "HOST OUTFLOW (int ratio ~ narrow ratio)"
+ },
+ "J171741.74+380752.47": {
+  "sig_int": 185.6978428725421,
+  "dv_int": 36.66817118050689,
+  "R_int": 9.381922853275777,
+  "R_narrow": 7.445512727074591,
+  "snr_intOIII": 42.902754395154844,
+  "verdict": "HOST OUTFLOW (int ratio ~ narrow ratio)"
+ },
+ "Egg_J1025+1402_MODSB": {
+  "sig_int": 150.00000000000003,
+  "dv_int": -128.99301091032456,
+  "R_int": 33.87468235107383,
+  "R_narrow": 7.01678018563765,
+  "snr_intOIII": 23.036511271223777,
+  "verdict": "HOST OUTFLOW (int ratio ~ narrow ratio)"
+ }
+}

@@ -1,0 +1,379 @@
+run_id,family,target,paper_section,lnZ,lnZ_err,n_samples_original
+A2744QSO1B_m3,experiments/duplicate_reduction,A2744-QSO1_reduction-B,Section 4.4,-77.2403,0.1094,32508
+BMKP_UNCOVER_2c_smc_r300_ujy_xmask,experiments/dust_law_and_configuration_sweep,BMKP_UNCOVER_2c_smc_r300_ujy_xmask,Section 2.3,-231.992,0.185,65329
+BMKP_UNCOVER_2c_smc_r300_ujy_xmask_photcal,experiments/dust_law_and_configuration_sweep,BMKP_UNCOVER_2c_smc_r300_ujy_xmask_photcal,Section 2.3,-108.876,0.159,50830
+CAPERS_1c_arch_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_1c_arch_ujy,Section 2.3,-205.339,0.144,41321
+CAPERS_1c_cz_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_1c_cz_ujy,Section 2.3,-202.840,0.133,38373
+CAPERS_1c_smc_mhfree_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_1c_smc_mhfree_ujy,Section 2.3,-197.780,0.141,40346
+CAPERS_1c_smc_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_1c_smc_ujy,Section 2.3,-195.773,0.144,39880
+CAPERS_2c_floor2k_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_floor2k_ujy,Section 2.3,-170.018,0.162,50223
+CAPERS_2c_freeav_n2k_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_freeav_n2k_ujy,Section 2.3,-167.037,0.118,77407
+CAPERS_2c_freeav_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_freeav_ujy,Section 2.3,-168.394,0.156,48547
+CAPERS_2c_h2omask_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_h2omask_ujy,Section 2.3,-73.316,0.129,37035
+CAPERS_2c_hotfloor_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_hotfloor_ujy,Section 2.3,-165.657,0.149,44038
+CAPERS_2c_neb_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_neb_ujy,Section 2.3,-165.005,0.151,45857
+CAPERS_2c_neb_ujy_long,experiments/dust_law_and_configuration_sweep,CAPERS_2c_neb_ujy_long,Section 2.3,-165.234,0.152,46787
+CAPERS_2c_noupw_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_noupw_ujy,Section 2.3,-111.275,0.157,49328
+CAPERS_2c_now_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_now_ujy,Section 2.3,-100.126,0.139,39763
+CAPERS_2c_prismR_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_prismR_ujy,Section 2.3,-165.318,0.152,45689
+CAPERS_2c_prismR_ujy_long,experiments/dust_law_and_configuration_sweep,CAPERS_2c_prismR_ujy_long,Section 2.3,-165.454,0.154,46312
+CAPERS_2c_r300_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_r300_ujy,Section 2.3,-167.715,0.152,46180
+CAPERS_2c_smc_mhfree_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_smc_mhfree_ujy,Section 2.3,-171.639,0.161,51053
+CAPERS_2c_smc_neb_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_smc_neb_ujy,Section 2.3,-166.133,0.153,46795
+CAPERS_2c_smc_neb_ujy_long,experiments/dust_law_and_configuration_sweep,CAPERS_2c_smc_neb_ujy_long,Section 2.3,-163.752,0.147,44268
+CAPERS_2c_smc_nomask_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_smc_nomask_ujy,Section 2.3,-505.354,0.161,49863
+CAPERS_2c_smc_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_smc_ujy,Section 2.3,-165.167,0.152,45165
+CAPERS_2c_smc_warm_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_2c_smc_warm_ujy,Section 2.3,-108.021,0.128,37110
+CAPERS_m3b_r300_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_m3b_r300_ujy,Section 2.3,-272.772,0.144,41586
+CAPERS_m3b_ujy,experiments/dust_law_and_configuration_sweep,CAPERS_m3b_ujy,Section 2.3,-274.678,0.142,42683
+RS_2c,experiments/dust_law_and_configuration_sweep,RS_2c,Section 2.3,-2338.2339,0.1746,162645
+RS_m3c_smc,experiments/dust_law_and_configuration_sweep,RS_m3c_smc,Section 2.3,-1500.5597,0.1421,104087
+UNCOVER_1c_arch_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_arch_ujy,Section 2.3,-289.934,0.160,48230
+UNCOVER_1c_arch_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_arch_ujy_photcal,Section 2.3,-145.791,0.155,46129
+UNCOVER_1c_cool2600_cz_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_cz_av3_ujy,Section 2.3,-648.742,0.172,56427
+UNCOVER_1c_cool2600_cz_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_cz_neb_ujy,Section 2.3,-696.299,0.177,56831
+UNCOVER_1c_cool2600_cz_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_cz_r300_av3_ujy,Section 2.3,-647.106,0.169,54757
+UNCOVER_1c_cool2600_cz_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_cz_r300_neb_ujy,Section 2.3,-701.356,0.173,54984
+UNCOVER_1c_cool2600_cz_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_cz_r300_ujy,Section 2.3,-638.503,0.207,74337
+UNCOVER_1c_cool2600_cz_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_cz_ujy,Section 2.3,-619.729,0.165,52233
+UNCOVER_1c_cool2600_smc_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_smc_av3_ujy,Section 2.3,-810.911,0.175,58658
+UNCOVER_1c_cool2600_smc_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_smc_neb_ujy,Section 2.3,-737.462,0.167,52030
+UNCOVER_1c_cool2600_smc_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_smc_r300_av3_ujy,Section 2.3,-799.507,0.160,56165
+UNCOVER_1c_cool2600_smc_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_smc_r300_neb_ujy,Section 2.3,-764.324,0.195,66479
+UNCOVER_1c_cool2600_smc_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_smc_r300_ujy,Section 2.3,-602.992,0.179,57991
+UNCOVER_1c_cool2600_smc_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2600_smc_ujy,Section 2.3,-607.850,0.189,64560
+UNCOVER_1c_cool2800_cz_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2800_cz_r300_av3_ujy,Section 2.3,-652.331,0.191,65638
+UNCOVER_1c_cool2800_cz_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2800_cz_r300_neb_ujy,Section 2.3,-713.703,0.201,70029
+UNCOVER_1c_cool2800_cz_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2800_cz_r300_ujy,Section 2.3,-626.415,0.181,59942
+UNCOVER_1c_cool2800_smc_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2800_smc_r300_av3_ujy,Section 2.3,-807.461,0.170,64718
+UNCOVER_1c_cool2800_smc_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2800_smc_r300_neb_ujy,Section 2.3,-760.606,0.187,62109
+UNCOVER_1c_cool2800_smc_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool2800_smc_r300_ujy,Section 2.3,-592.573,0.153,45498
+UNCOVER_1c_cool3000_cz_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_cz_av3_ujy,Section 2.3,-664.387,0.186,66399
+UNCOVER_1c_cool3000_cz_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_cz_neb_ujy,Section 2.3,-707.912,0.202,70804
+UNCOVER_1c_cool3000_cz_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_cz_r300_av3_ujy,Section 2.3,-646.737,0.180,58657
+UNCOVER_1c_cool3000_cz_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_cz_r300_neb_ujy,Section 2.3,-723.380,0.219,81515
+UNCOVER_1c_cool3000_cz_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_cz_r300_ujy,Section 2.3,-644.567,0.213,81545
+UNCOVER_1c_cool3000_cz_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_cz_ujy,Section 2.3,-628.678,0.186,62958
+UNCOVER_1c_cool3000_smc_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_smc_av3_ujy,Section 2.3,-803.573,0.162,54377
+UNCOVER_1c_cool3000_smc_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_smc_neb_ujy,Section 2.3,-744.197,0.183,60091
+UNCOVER_1c_cool3000_smc_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_smc_r300_av3_ujy,Section 2.3,-808.024,0.167,62743
+UNCOVER_1c_cool3000_smc_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_smc_r300_neb_ujy,Section 2.3,-751.673,0.166,51208
+UNCOVER_1c_cool3000_smc_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_smc_r300_ujy,Section 2.3,-600.637,0.171,55240
+UNCOVER_1c_cool3000_smc_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool3000_smc_ujy,Section 2.3,-596.088,0.161,50326
+UNCOVER_1c_cool_cz_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool_cz_av3_ujy,Section 2.3,-650.998,0.192,64770
+UNCOVER_1c_cool_cz_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool_cz_neb_ujy,Section 2.3,-700.709,0.187,62368
+UNCOVER_1c_cool_cz_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool_cz_ujy,Section 2.3,-637.871,0.201,73834
+UNCOVER_1c_cool_smc_av3_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool_smc_av3_ujy,Section 2.3,-829.112,0.150,46543
+UNCOVER_1c_cool_smc_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool_smc_neb_ujy,Section 2.3,-740.339,0.174,55583
+UNCOVER_1c_cool_smc_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cool_smc_ujy,Section 2.3,-588.696,0.143,41469
+UNCOVER_1c_cz_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cz_r300_ujy,Section 2.3,-288.519,0.157,46537
+UNCOVER_1c_cz_r300_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_cz_r300_ujy_photcal,Section 2.3,-147.271,0.161,48481
+UNCOVER_1c_smc_mhfix_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_smc_mhfix_ujy,Section 2.3,-291.069,0.170,51585
+UNCOVER_1c_smc_mhfix_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_smc_mhfix_ujy_photcal,Section 2.3,-149.855,0.154,45512
+UNCOVER_1c_smc_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_smc_neb_ujy,Section 2.3,-284.914,0.168,54031
+UNCOVER_1c_smc_neb_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_smc_neb_ujy_photcal,Section 2.3,-142.092,0.159,49418
+UNCOVER_1c_smc_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_smc_r300_ujy,Section 2.3,-288.744,0.164,48640
+UNCOVER_1c_smc_r300_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_1c_smc_r300_ujy_photcal,Section 2.3,-149.413,0.160,47901
+UNCOVER_2c_cz_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_cz_r300_ujy,Section 2.3,-278.941,0.183,62816
+UNCOVER_2c_cz_r300_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_cz_r300_ujy_photcal,Section 2.3,-145.080,0.172,59625
+UNCOVER_2c_floor2k_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_floor2k_ujy,Section 2.3,-288.737,0.185,65215
+UNCOVER_2c_floor2k_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_floor2k_ujy_photcal,Section 2.3,-137.538,0.166,52559
+UNCOVER_2c_freeav_n2k_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_freeav_n2k_ujy,Section 2.3,-288.887,0.155,123553
+UNCOVER_2c_freeav_n2k_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_freeav_n2k_ujy_photcal,Section 2.3,-135.497,0.128,87177
+UNCOVER_2c_freeav_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_freeav_ujy,Section 2.3,-276.168,0.179,60166
+UNCOVER_2c_freeav_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_freeav_ujy_photcal,Section 2.3,-145.269,0.158,51673
+UNCOVER_2c_h2omask_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_h2omask_ujy,Section 2.3,-170.049,0.165,49914
+UNCOVER_2c_h2omask_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_h2omask_ujy_photcal,Section 2.3,-86.868,0.155,52607
+UNCOVER_2c_hotfloor_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_hotfloor_ujy,Section 2.3,-281.019,0.189,65877
+UNCOVER_2c_hotfloor_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_hotfloor_ujy_photcal,Section 2.3,-142.342,0.177,60857
+UNCOVER_2c_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_neb_ujy,Section 2.3,-253.894,0.179,61313
+UNCOVER_2c_neb_ujy_long,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_neb_ujy_long,Section 2.3,-256.839,0.187,65031
+UNCOVER_2c_neb_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_neb_ujy_photcal,Section 2.3,-123.946,0.168,54452
+UNCOVER_2c_noupw_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_noupw_ujy,Section 2.3,-210.757,0.155,45283
+UNCOVER_2c_noupw_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_noupw_ujy_photcal,Section 2.3,-109.243,0.168,55658
+UNCOVER_2c_now_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_now_ujy,Section 2.3,-209.555,0.152,44442
+UNCOVER_2c_now_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_now_ujy_photcal,Section 2.3,-105.193,0.166,51859
+UNCOVER_2c_prismR_ujy_long,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_prismR_ujy_long,Section 2.3,-279.584,0.182,60724
+UNCOVER_2c_prismR_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_prismR_ujy_photcal,Section 2.3,-150.971,0.189,68022
+UNCOVER_2c_smc_r300_mhfree_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_mhfree_ujy,Section 2.3,-293.548,0.189,69979
+UNCOVER_2c_smc_r300_mhfree_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_mhfree_ujy_photcal,Section 2.3,-147.007,0.178,59561
+UNCOVER_2c_smc_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_neb_ujy,Section 2.3,-269.216,0.193,68731
+UNCOVER_2c_smc_r300_neb_ujy_long,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_neb_ujy_long,Section 2.3,-269.294,0.186,66024
+UNCOVER_2c_smc_r300_neb_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_neb_ujy_photcal,Section 2.3,-128.827,0.161,50613
+UNCOVER_2c_smc_r300_nomask_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_nomask_ujy,Section 2.3,-694.188,0.215,81398
+UNCOVER_2c_smc_r300_nomask_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_nomask_ujy_photcal,Section 2.3,-523.079,0.177,58869
+UNCOVER_2c_smc_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_ujy,Section 2.3,-294.011,0.180,76988
+UNCOVER_2c_smc_r300_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_ujy_photcal,Section 2.3,-149.491,0.183,61228
+UNCOVER_2c_smc_r300_warm_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_warm_ujy,Section 2.3,-215.690,0.161,50695
+UNCOVER_2c_smc_r300_warm_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_r300_warm_ujy_photcal,Section 2.3,-104.526,0.148,43526
+UNCOVER_2c_smc_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_ujy,Section 2.3,-278.312,0.179,60002
+UNCOVER_2c_smc_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_2c_smc_ujy_photcal,Section 2.3,-148.167,0.158,54054
+UNCOVER_m3b_r300_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_m3b_r300_ujy,Section 2.3,-289.922,0.154,47623
+UNCOVER_m3b_r300_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_m3b_r300_ujy_photcal,Section 2.3,-286.141,0.150,43651
+UNCOVER_m3b_ujy,experiments/dust_law_and_configuration_sweep,UNCOVER_m3b_ujy,Section 2.3,-289.423,0.156,47555
+UNCOVER_m3b_ujy_photcal,experiments/dust_law_and_configuration_sweep,UNCOVER_m3b_ujy_photcal,Section 2.3,-286.047,0.147,43508
+WIDE_1c_arch_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_arch_ujy,Section 2.3,-281.274,0.163,51670
+WIDE_1c_cool2600_cz_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_cz_av3_ujy,Section 2.3,-387.335,0.154,64735
+WIDE_1c_cool2600_cz_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_cz_neb_ujy,Section 2.3,-352.612,0.155,46428
+WIDE_1c_cool2600_cz_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_cz_r300_av3_ujy,Section 2.3,-367.136,0.139,40916
+WIDE_1c_cool2600_cz_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_cz_r300_neb_ujy,Section 2.3,-375.616,0.139,41989
+WIDE_1c_cool2600_cz_r300_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_cz_r300_ujy,Section 2.3,-380.472,0.146,45619
+WIDE_1c_cool2600_cz_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_cz_ujy,Section 2.3,-373.605,0.154,52813
+WIDE_1c_cool2600_smc_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_smc_av3_ujy,Section 2.3,-361.724,0.141,44735
+WIDE_1c_cool2600_smc_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_smc_neb_ujy,Section 2.3,-350.457,0.156,50383
+WIDE_1c_cool2600_smc_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_smc_r300_av3_ujy,Section 2.3,-358.006,0.140,39140
+WIDE_1c_cool2600_smc_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_smc_r300_neb_ujy,Section 2.3,-371.570,0.152,53079
+WIDE_1c_cool2600_smc_r300_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_smc_r300_ujy,Section 2.3,-356.962,0.140,44248
+WIDE_1c_cool2600_smc_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2600_smc_ujy,Section 2.3,-365.505,0.136,43434
+WIDE_1c_cool2800_cz_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2800_cz_r300_av3_ujy,Section 2.3,-377.791,0.157,51697
+WIDE_1c_cool2800_cz_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2800_cz_r300_neb_ujy,Section 2.3,-379.445,0.158,52701
+WIDE_1c_cool2800_cz_r300_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2800_cz_r300_ujy,Section 2.3,-392.069,0.155,60701
+WIDE_1c_cool2800_smc_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2800_smc_r300_av3_ujy,Section 2.3,-354.832,0.139,42384
+WIDE_1c_cool2800_smc_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2800_smc_r300_neb_ujy,Section 2.3,-371.981,0.153,50318
+WIDE_1c_cool2800_smc_r300_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool2800_smc_r300_ujy,Section 2.3,-363.623,0.136,40825
+WIDE_1c_cool3000_cz_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_cz_av3_ujy,Section 2.3,-376.067,0.151,50000
+WIDE_1c_cool3000_cz_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_cz_neb_ujy,Section 2.3,-360.791,0.152,50839
+WIDE_1c_cool3000_cz_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_cz_r300_av3_ujy,Section 2.3,-389.957,0.161,55312
+WIDE_1c_cool3000_cz_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_cz_r300_neb_ujy,Section 2.3,-381.290,0.147,46380
+WIDE_1c_cool3000_cz_r300_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_cz_r300_ujy,Section 2.3,-381.576,0.171,55596
+WIDE_1c_cool3000_cz_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_cz_ujy,Section 2.3,-382.063,0.172,61898
+WIDE_1c_cool3000_smc_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_smc_av3_ujy,Section 2.3,-368.082,0.138,45361
+WIDE_1c_cool3000_smc_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_smc_neb_ujy,Section 2.3,-356.121,0.150,45152
+WIDE_1c_cool3000_smc_r300_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_smc_r300_av3_ujy,Section 2.3,-358.728,0.139,42695
+WIDE_1c_cool3000_smc_r300_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_smc_r300_neb_ujy,Section 2.3,-370.144,0.136,38134
+WIDE_1c_cool3000_smc_r300_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_smc_r300_ujy,Section 2.3,-366.144,0.150,47835
+WIDE_1c_cool3000_smc_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool3000_smc_ujy,Section 2.3,-363.364,0.145,44647
+WIDE_1c_cool_cz_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool_cz_av3_ujy,Section 2.3,-388.647,0.182,73360
+WIDE_1c_cool_cz_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool_cz_neb_ujy,Section 2.3,-357.329,0.156,48038
+WIDE_1c_cool_cz_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool_cz_ujy,Section 2.3,-377.447,0.174,58184
+WIDE_1c_cool_smc_av3_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool_smc_av3_ujy,Section 2.3,-364.619,0.145,47012
+WIDE_1c_cool_smc_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool_smc_neb_ujy,Section 2.3,-351.729,0.157,50070
+WIDE_1c_cool_smc_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cool_smc_ujy,Section 2.3,-361.706,0.140,41845
+WIDE_1c_cz_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_cz_ujy,Section 2.3,-270.650,0.140,38874
+WIDE_1c_smc_mhfree_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_smc_mhfree_ujy,Section 2.3,-280.428,0.159,50767
+WIDE_1c_smc_ujy,experiments/dust_law_and_configuration_sweep,WIDE_1c_smc_ujy,Section 2.3,-278.025,0.157,48030
+WIDE_2c_floor2k_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_floor2k_ujy,Section 2.3,-266.173,0.200,71272
+WIDE_2c_freeav_n2k_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_freeav_n2k_ujy,Section 2.3,-250.985,0.126,88246
+WIDE_2c_freeav_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_freeav_ujy,Section 2.3,-269.950,0.170,61011
+WIDE_2c_h2omask_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_h2omask_ujy,Section 2.3,-112.267,0.158,50637
+WIDE_2c_hotfloor_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_hotfloor_ujy,Section 2.3,-263.976,0.186,68777
+WIDE_2c_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_neb_ujy,Section 2.3,-252.960,0.176,59051
+WIDE_2c_neb_ujy_long,experiments/dust_law_and_configuration_sweep,WIDE_2c_neb_ujy_long,Section 2.3,-248.209,0.162,53296
+WIDE_2c_noupw_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_noupw_ujy,Section 2.3,-146.660,0.153,51050
+WIDE_2c_now_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_now_ujy,Section 2.3,-147.217,0.156,53399
+WIDE_2c_prismR_ujy_long,experiments/dust_law_and_configuration_sweep,WIDE_2c_prismR_ujy_long,Section 2.3,-249.686,0.171,56841
+WIDE_2c_r300_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_r300_ujy,Section 2.3,-256.513,0.172,56215
+WIDE_2c_smc_mhfree_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_smc_mhfree_ujy,Section 2.3,-260.424,0.194,67457
+WIDE_2c_smc_neb_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_smc_neb_ujy,Section 2.3,-241.222,0.168,53125
+WIDE_2c_smc_nomask_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_smc_nomask_ujy,Section 2.3,-690.944,0.178,65076
+WIDE_2c_smc_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_smc_ujy,Section 2.3,-249.185,0.168,54150
+WIDE_2c_smc_warm_ujy,experiments/dust_law_and_configuration_sweep,WIDE_2c_smc_warm_ujy,Section 2.3,-142.621,0.139,39801
+WIDE_m3b_r300_ujy,experiments/dust_law_and_configuration_sweep,WIDE_m3b_r300_ujy,Section 2.3,-279.443,0.151,46843
+WIDE_m3b_ujy,experiments/dust_law_and_configuration_sweep,WIDE_m3b_ujy,Section 2.3,-272.232,0.139,40507
+egg_base_s123_zfix,experiments/egg_model_finalization,egg_base_s123_zfix,Appendix C,-37370.4308,0.2730,43551
+egg_base_sfree_zfix,experiments/egg_model_finalization,egg_base_sfree_zfix,Appendix C,-39751.5004,0.2812,30921
+egg_duste_s123_zfix,experiments/egg_model_finalization,egg_duste_s123_zfix,Appendix C,-33457.2237,0.4942,85573
+egg_duste_s123_zfix_globalfloor,experiments/egg_model_finalization,egg_duste_s123_zfix_globalfloor,Appendix C,376015.8142,0.6007,80166
+egg_duste_s123_zfree,experiments/egg_model_finalization,egg_duste_s123_zfree,Appendix C,-31501.8000,0.4194,55151
+egg_duste_s123_zfree_nocat,experiments/egg_model_finalization,egg_duste_s123_zfree_nocat,Appendix C,-18397.9589,0.4089,62306
+egg_duste_sfree_zfix,experiments/egg_model_finalization,egg_duste_sfree_zfix,Appendix C,-33533.5949,0.5191,65172
+egg_duste_sfree_zfree,experiments/egg_model_finalization,egg_duste_sfree_zfree,Appendix C,-29447.9110,0.5565,55229
+egg_duste_sfree_zfree_globalfloor,experiments/egg_model_finalization,egg_duste_sfree_zfree_globalfloor,Appendix C,376553.4844,0.7244,113953
+egg_duste_sfree_zfree_jitter_floor,experiments/egg_model_finalization,egg_duste_sfree_zfree_jitter_floor,Appendix C,569570.8326,0.4159,64145
+egg_duste_sfree_zfree_jitter_floor_dustsep,experiments/egg_model_finalization,egg_duste_sfree_zfree_jitter_floor_dustsep,Appendix C,570930.3053,0.5043,60902
+egg_duste_sfree_zfree_jitter_floor_speccal1,experiments/egg_model_finalization,egg_duste_sfree_zfree_jitter_floor_speccal1,Appendix C,572049.8095,0.6254,70167
+egg_duste_sfree_zfree_jitter_floor_speccal1_oldextrap,experiments/egg_model_finalization,egg_duste_sfree_zfree_jitter_floor_speccal1_oldextrap,Appendix C,572405.5401,0.3186,43692
+egg_duste_zfree_s126_xi4_nocat,experiments/egg_model_finalization,egg_duste_zfree_s126_xi4_nocat,Appendix C,-19588.8238,0.4235,70362
+egg_liu2026_corrected,experiments/egg_model_finalization,egg_liu2026_corrected,Appendix C,3196.9942,0.1994,20455
+egg_liu2026_exact.BADPRIOR,experiments/egg_model_finalization,egg_liu2026_exact.BADPRIOR,Appendix C,-45512.4075,0.3022,31110
+egg_xitb_s123_zfix,experiments/egg_model_finalization,egg_xitb_s123_zfix,Appendix C,-33482.0343,0.4931,68466
+egg_xitb_s123_zfree,experiments/egg_model_finalization,egg_xitb_s123_zfree,Appendix C,-31213.4684,0.3471,40581
+egg_xitb_sfree_zfix,experiments/egg_model_finalization,egg_xitb_sfree_zfix,Appendix C,-33277.2219,0.2749,40304
+egg_xitb_sfree_zfree,experiments/egg_model_finalization,egg_xitb_sfree_zfree,Appendix C,-31969.0976,0.5719,50250
+CAPERS_2c_smc_isophi_ujy,experiments/geometry_ties,CAPERS_2c_smc_isophi_ujy,Section 4.2,-183.824,0.160,50515
+CAPERS_2c_smc_spot_ujy,experiments/geometry_ties,CAPERS_2c_smc_spot_ujy,Section 4.2,-172.500,0.152,45568
+UNCOVER_2c_smc_r300_isophi_ujy_photcal,experiments/geometry_ties,UNCOVER_2c_smc_r300_isophi_ujy_photcal,Section 4.2,-153.148,0.158,49817
+UNCOVER_2c_smc_r300_spot_ujy_photcal,experiments/geometry_ties,UNCOVER_2c_smc_r300_spot_ujy_photcal,Section 4.2,-150.777,0.157,48763
+WIDE_2c_smc_isophi_ujy,experiments/geometry_ties,WIDE_2c_smc_isophi_ujy,Section 4.2,-262.248,0.169,55174
+WIDE_2c_smc_spot_ujy,experiments/geometry_ties,WIDE_2c_smc_spot_ujy,Section 4.2,-264.013,0.182,64880
+CAPERS_2c_isophi_n2k_ujy,experiments/geometry_ties/alternative_configurations,CAPERS_2c_isophi_n2k_ujy,Section 4.2,-190.001,0.128,91344
+CAPERS_2c_isophi_ujy,experiments/geometry_ties/alternative_configurations,CAPERS_2c_isophi_ujy,Section 4.2,-184.907,0.156,47927
+CAPERS_2c_spot_n2k_ujy,experiments/geometry_ties/alternative_configurations,CAPERS_2c_spot_n2k_ujy,Section 4.2,-174.024,0.119,77105
+CAPERS_2c_spot_ujy,experiments/geometry_ties/alternative_configurations,CAPERS_2c_spot_ujy,Section 4.2,-176.568,0.160,49733
+UNCOVER_2c_isophi_n2k_ujy,experiments/geometry_ties/alternative_configurations,UNCOVER_2c_isophi_n2k_ujy,Section 4.2,-290.273,0.126,81198
+UNCOVER_2c_isophi_n2k_ujy_photcal,experiments/geometry_ties/alternative_configurations,UNCOVER_2c_isophi_n2k_ujy_photcal,Section 4.2,-144.661,0.119,81162
+UNCOVER_2c_isophi_ujy,experiments/geometry_ties/alternative_configurations,UNCOVER_2c_isophi_ujy,Section 4.2,-291.421,0.163,50021
+UNCOVER_2c_isophi_ujy_photcal,experiments/geometry_ties/alternative_configurations,UNCOVER_2c_isophi_ujy_photcal,Section 4.2,-140.926,0.153,46897
+UNCOVER_2c_smc_r300_isophi_ujy,experiments/geometry_ties/alternative_configurations,UNCOVER_2c_smc_r300_isophi_ujy,Section 4.2,-302.013,0.171,55565
+UNCOVER_2c_smc_r300_spot_ujy,experiments/geometry_ties/alternative_configurations,UNCOVER_2c_smc_r300_spot_ujy,Section 4.2,-295.438,0.170,54834
+UNCOVER_2c_spot_n2k_ujy,experiments/geometry_ties/alternative_configurations,UNCOVER_2c_spot_n2k_ujy,Section 4.2,-292.746,0.125,84464
+UNCOVER_2c_spot_n2k_ujy_photcal,experiments/geometry_ties/alternative_configurations,UNCOVER_2c_spot_n2k_ujy_photcal,Section 4.2,-143.265,0.122,87622
+UNCOVER_2c_spot_ujy,experiments/geometry_ties/alternative_configurations,UNCOVER_2c_spot_ujy,Section 4.2,-297.707,0.169,54665
+UNCOVER_2c_spot_ujy_photcal,experiments/geometry_ties/alternative_configurations,UNCOVER_2c_spot_ujy_photcal,Section 4.2,-141.504,0.164,52917
+WIDE_2c_isophi_n2k_ujy,experiments/geometry_ties/alternative_configurations,WIDE_2c_isophi_n2k_ujy,Section 4.2,-263.008,0.130,88851
+WIDE_2c_isophi_ujy,experiments/geometry_ties/alternative_configurations,WIDE_2c_isophi_ujy,Section 4.2,-271.519,0.143,51060
+WIDE_2c_spot_n2k_ujy,experiments/geometry_ties/alternative_configurations,WIDE_2c_spot_n2k_ujy,Section 4.2,-250.128,0.123,82606
+WIDE_2c_spot_ujy,experiments/geometry_ties/alternative_configurations,WIDE_2c_spot_ujy,Section 4.2,-282.863,0.158,50495
+BMKP_CAPERS_2c_smc_ujy_photcal4_youngal,experiments/host_prior,BMKP_CAPERS_2c_smc_ujy_photcal4_youngal,Sections 4.3 and 4.4,-164.061,0.144,42535
+BMKP_CAPERS_2c_smc_ujy_youngal,experiments/host_prior,BMKP_CAPERS_2c_smc_ujy_youngal,Sections 4.3 and 4.4,-157.681,0.141,40962
+BMKP_UNCOVER_2c_smc_r300_ujy_photcal4_youngal,experiments/host_prior,BMKP_UNCOVER_2c_smc_r300_ujy_photcal4_youngal,Sections 4.3 and 4.4,-106.754,0.157,46956
+BMKP_UNCOVER_2c_smc_r300_ujy_photcal_youngal,experiments/host_prior,BMKP_UNCOVER_2c_smc_r300_ujy_photcal_youngal,Sections 4.3 and 4.4,-121.640,0.159,47931
+BMKP_UNCOVER_2c_smc_r300_ujy_youngal,experiments/host_prior,BMKP_UNCOVER_2c_smc_r300_ujy_youngal,Sections 4.3 and 4.4,-254.785,0.176,57262
+BMKP_WIDE_2c_smc_ujy_youngal,experiments/host_prior,BMKP_WIDE_2c_smc_ujy_youngal,Sections 4.3 and 4.4,-223.414,0.139,38858
+UNCOVER_2c_smc_r300_nomask_ujy_youngal,experiments/host_prior,UNCOVER_2c_smc_r300_nomask_ujy_youngal,Sections 4.3 and 4.4,-671.880,0.174,55239
+WIDE_2c_smc_nomask_ujy_youngal,experiments/host_prior,WIDE_2c_smc_nomask_ujy_youngal,Sections 4.3 and 4.4,-665.854,0.153,45431
+lrds2_MOCK_R5D_bright_sub,experiments/injection_recovery/desi,MOCK_R5D_bright_sub,Section 4.4,-3590.0973,0.2975,29034
+lrds2_MOCK_R5D_bright_super,experiments/injection_recovery/desi,MOCK_R5D_bright_super,Section 4.4,-3630.4687,0.1795,24325
+lrds2_MOCK_R5D_faint_sub,experiments/injection_recovery/desi,MOCK_R5D_faint_sub,Section 4.4,-3674.3013,0.0827,13588
+lrds2_MOCK_R5D_faint_super,experiments/injection_recovery/desi,MOCK_R5D_faint_super,Section 4.4,-3727.3946,0.0872,13871
+egg_duste_sfree_zfree_injrec,experiments/injection_recovery/egg,egg_duste_sfree_zfree_injrec,Appendix C,-15454.7602,0.3429,38701
+MOCK_R5_bright_sub_m3,experiments/injection_recovery/prism,MOCK_R5_bright_sub,Section 4.4,-145.7648,0.0998,29544
+MOCK_R5_bright_super_m3,experiments/injection_recovery/prism,MOCK_R5_bright_super,Section 4.4,-110.7796,0.0994,28608
+MOCK_R5_faint_sub_m3,experiments/injection_recovery/prism,MOCK_R5_faint_sub,Section 4.4,-75.5815,0.0568,17420
+MOCK_R5_faint_super_m3,experiments/injection_recovery/prism,MOCK_R5_faint_super,Section 4.4,-73.1721,0.0548,16941
+MOCK_R5_median_sub_m3,experiments/injection_recovery/prism,MOCK_R5_median_sub,Section 4.4,-145.3523,0.0826,24463
+MOCK_R5_median_super_m3,experiments/injection_recovery/prism,MOCK_R5_median_super,Section 4.4,-135.8431,0.0823,22901
+MOCK_cliff_m3,experiments/injection_recovery/prism,MOCK_cliff,Section 4.4,-129.8936,0.1056,31642
+BMKP_CAPERS_2c_smc_ujy,experiments/photometric_anchoring,BMKP_CAPERS_2c_smc_ujy,Section 2.1,-159.132,0.144,42351
+BMKP_CAPERS_2c_smc_ujy_photcal,experiments/photometric_anchoring,BMKP_CAPERS_2c_smc_ujy_photcal,Section 2.1,-175.041,0.152,47215
+BMKP_CAPERS_2c_smc_ujy_photcal2,experiments/photometric_anchoring,BMKP_CAPERS_2c_smc_ujy_photcal2,Section 2.1,-168.658,0.147,44520
+BMKP_CAPERS_2c_smc_ujy_photcal3,experiments/photometric_anchoring,BMKP_CAPERS_2c_smc_ujy_photcal3,Section 2.1,-171.197,0.151,46461
+BMKP_UNCOVER_2c_smc_r300_ujy,experiments/photometric_anchoring,BMKP_UNCOVER_2c_smc_r300_ujy,Section 2.1,-267.415,0.186,67175
+BMKP_UNCOVER_2c_smc_r300_ujy_photcal3,experiments/photometric_anchoring,BMKP_UNCOVER_2c_smc_r300_ujy_photcal3,Section 2.1,-98.691,0.145,42217
+BMKP_UNCOVER_2c_smc_r300_ujy_photcal4,experiments/photometric_anchoring,BMKP_UNCOVER_2c_smc_r300_ujy_photcal4,Section 2.1,-107.949,0.160,48124
+CLIFF_m3_pilot_2c,experiments/two_component_test,CLIFF_m3_pilot,Section 4.4,-52.3860,0.1098,32758
+EGS42046_m3_2c,experiments/two_component_test,EGS42046,Section 4.4,-123.8786,0.1261,32635
+EGS49140_m3_2c,experiments/two_component_test,EGS49140,Section 4.4,-82.9513,0.1237,32398
+EGS55604_m3_2c,experiments/two_component_test,EGS55604,Section 4.4,-116.0908,0.1261,32806
+GN15498_fr_m3_2c,experiments/two_component_test,GN15498,Section 4.4,-146.1436,0.1479,50430
+GN38147_dja_m3_2c,experiments/two_component_test,GN38147,Section 4.4,-154.4763,0.1281,35307
+GN68797_dja_m3_2c,experiments/two_component_test,GN68797,Section 4.4,-138.7356,0.1320,35147
+GN9771_fr_m3_2c,experiments/two_component_test,GN9771,Section 4.4,-839.5602,0.1935,64802
+GS13971_fr_m3_2c,experiments/two_component_test,GS13971,Section 4.4,-108.6481,0.1204,30804
+RUBIES_EGS28812_m3_2c,experiments/two_component_test,RUBIES-EGS28812,Section 4.4,-139.4445,0.1015,29777
+RUBIES_EGS29489_m3_2c,experiments/two_component_test,RUBIES-EGS29489,Section 4.4,-137.8699,0.1360,37134
+RUBIES_EGS37124_m3_2c,experiments/two_component_test,RUBIES-EGS37124,Section 4.4,-88.7402,0.0814,22207
+RUBIES_EGS42232_m3_2c,experiments/two_component_test,RUBIES-EGS42232,Section 4.4,-80.8575,0.1256,32975
+RUBIES_EGS42803_m3_2c,experiments/two_component_test,RUBIES-EGS42803,Section 4.4,-93.2329,0.1004,28832
+RUBIES_EGS53254_m3_2c,experiments/two_component_test,RUBIES-EGS53254,Section 4.4,-83.8852,0.0581,18393
+RUBIES_EGS61496_m3_2c,experiments/two_component_test,RUBIES-EGS61496,Section 4.4,-123.4447,0.0947,28600
+RUBIES_EGS926125_m3_2c,experiments/two_component_test,RUBIES-EGS926125,Section 4.4,-108.2734,0.1023,30299
+RUBIES_EGS927271_m3_2c,experiments/two_component_test,RUBIES-EGS927271,Section 4.4,-97.4456,0.0912,25227
+RUBIES_EGS948917_m3_2c,experiments/two_component_test,RUBIES-EGS948917,Section 4.4,-85.6242,0.1129,34207
+RUBIES_EGS952625_m3_2c,experiments/two_component_test,RUBIES-EGS952625,Section 4.4,-107.1879,0.0598,19035
+RUBIES_EGS966323_m3_2c,experiments/two_component_test,RUBIES-EGS966323,Section 4.4,-71.6435,0.0933,27122
+RUBIES_UDS119957_m3_2c,experiments/two_component_test,RUBIES-UDS119957,Section 4.4,-122.9353,0.1038,31716
+RUBIES_UDS144195_m3_2c,experiments/two_component_test,RUBIES-UDS144195,Section 4.4,-66.7176,0.1072,32700
+RUBIES_UDS149298_m3_2c,experiments/two_component_test,RUBIES-UDS149298,Section 4.4,-185.0806,0.1039,30071
+RUBIES_UDS167741_m3_2c,experiments/two_component_test,RUBIES-UDS167741,Section 4.4,-105.5852,0.1016,29594
+RUBIES_UDS172350_m3_2c,experiments/two_component_test,RUBIES-UDS172350,Section 4.4,-144.3098,0.1047,25699
+RUBIES_UDS23438_m3_2c,experiments/two_component_test,RUBIES-UDS23438,Section 4.4,-150.4936,0.1299,36204
+RUBIES_UDS29813_m3_2c,experiments/two_component_test,RUBIES-UDS29813,Section 4.4,-131.5149,0.1006,24650
+RUBIES_UDS31747_m3_2c,experiments/two_component_test,RUBIES-UDS31747,Section 4.4,-108.8574,0.1190,30092
+RUBIES_UDS33938_m3_2c,experiments/two_component_test,RUBIES-UDS33938,Section 4.4,-100.5099,0.0907,21686
+RUBIES_UDS36171_m3_2c,experiments/two_component_test,RUBIES-UDS36171,Section 4.4,-114.1278,0.0705,20163
+RUBIES_UDS40579_m3_2c,experiments/two_component_test,RUBIES-UDS40579,Section 4.4,-92.3629,0.1157,36003
+RUBIES_UDS50716_m3_2c,experiments/two_component_test,RUBIES-UDS50716,Section 4.4,-125.1166,0.0842,20629
+RUBIES_UDS53692_m3_2c,experiments/two_component_test,RUBIES-UDS53692,Section 4.4,-131.6330,0.0728,20500
+RUBIES_UDS807469_m3_2c,experiments/two_component_test,RUBIES-UDS807469,Section 4.4,-174.5249,0.0662,21012
+RUBIES_UDS830237_m3_2c,experiments/two_component_test,RUBIES-UDS830237,Section 4.4,-128.5907,0.0614,20761
+RUBIES_UDS848745_m3_2c,experiments/two_component_test,RUBIES-UDS848745,Section 4.4,-97.6209,0.0862,24637
+RUBIES_UDS967770_m3_2c,experiments/two_component_test,RUBIES-UDS967770,Section 4.4,-91.3252,0.0725,20890
+RUBIES_UDS970351_m3_2c,experiments/two_component_test,RUBIES-UDS970351,Section 4.4,-155.3282,0.0964,28287
+SOK_1180_13329_m3_2c,experiments/two_component_test,Sok-1180_13329,Section 4.4,-107.3179,0.1291,34791
+SOK_1181_53501_m3_2c,experiments/two_component_test,Sok-1181_53501,Section 4.4,-142.9260,0.1311,39846
+SOK_1181_73488_m3_2c,experiments/two_component_test,Sok-1181_73488,Section 4.4,-141.1484,0.1425,42557
+SOK_1286_159717_m3_2c,experiments/two_component_test,Sok-1286_159717,Section 4.4,-198.6541,0.1355,38647
+SOK_1286_38562_m3_2c,experiments/two_component_test,Sok-1286_38562,Section 4.4,-182.2453,0.1386,39051
+SOK_4106_83161_m3_2c,experiments/two_component_test,Sok-4106_83161,Section 4.4,-134.3673,0.0654,21614
+SOK_4106_85168_m3_2c,experiments/two_component_test,Sok-4106_85168,Section 4.4,-95.1878,0.0686,20799
+SOK_5224_920396_m3_2c,experiments/two_component_test,Sok-5224_920396,Section 4.4,-95.6493,0.1249,34153
+UDS182791_m3_2c,experiments/two_component_test,UDS182791,Section 4.4,-188.5470,0.1140,33744
+UNCOVER45924_dja_m3_2c,experiments/two_component_test,UNCOVER45924,Section 4.4,-164.7956,0.1373,38209
+BMKP_CAPERS_2c_smc_ujy_photcal4,primary,CAPERS-UDS-23216,"Section 4.1, Table 1",-165.989,0.145,43902
+BMKP_RS_m3c_smc,primary,GN-28074,"Section 4.1, Table 1",-1481.104,0.193,74182
+BMKP_egg_duste_sfree_zfree_nmask,primary,J1025+1402,"Section 4.1, Table 1",-29272.099,0.543,56347
+BMKP_UNCOVER_2c_smc_r300_ujy_photcal,primary,UNCOVER-A2744-20698,"Section 4.1, Table 1",-126.842,0.168,53623
+BMKP_WIDE_2c_smc_ujy,primary,WIDE-EGS-2974,"Section 4.1, Table 1",-230.267,0.154,46762
+lrds2_J000927,supplementary/desi,J000927,"Sections 2.3 and 4.4, Figure 8",-4159.9419,0.2633,24497
+lrds2_J012930,supplementary/desi,J012930,"Sections 2.3 and 4.4, Figure 8",-7171.2490,0.2306,26262
+lrds2_J024337,supplementary/desi,J024337,"Sections 2.3 and 4.4, Figure 8",-4144.9427,0.1587,21004
+lrds2_J071635,supplementary/desi,J071635,"Sections 2.3 and 4.4, Figure 8",-7510.4282,0.3547,34423
+lrds2_J082606,supplementary/desi,J082606,"Sections 2.3 and 4.4, Figure 8",-3746.9664,0.1918,17322
+lrds2_J082921,supplementary/desi,J082921,"Sections 2.3 and 4.4, Figure 8",-5754.4661,0.2618,27686
+lrds2_J094411,supplementary/desi,J094411,"Sections 2.3 and 4.4, Figure 8",-5597.5355,0.2780,29357
+lrds2_J101742,supplementary/desi,J101742,"Sections 2.3 and 4.4, Figure 8",-4612.0540,0.2252,21055
+lrds2_J102553,supplementary/desi,J102553,"Sections 2.3 and 4.4, Figure 8",-4141.7934,0.2202,20596
+lrds2_J104242,supplementary/desi,J104242,"Sections 2.3 and 4.4, Figure 8",-3933.3565,0.1689,18114
+lrds2_J105620,supplementary/desi,J105620,"Sections 2.3 and 4.4, Figure 8",-3952.1640,0.1698,19612
+lrds2_J105900,supplementary/desi,J105900,"Sections 2.3 and 4.4, Figure 8",-4050.2534,0.1325,16534
+lrds2_J111943,supplementary/desi,J111943,"Sections 2.3 and 4.4, Figure 8",-4009.0031,0.2307,28038
+lrds2_J113734,supplementary/desi,J113734,"Sections 2.3 and 4.4, Figure 8",-4052.9492,0.1225,15020
+lrds2_J132137,supplementary/desi,J132137,"Sections 2.3 and 4.4, Figure 8",-4038.1393,0.2607,25500
+lrds2_J134317,supplementary/desi,J134317,"Sections 2.3 and 4.4, Figure 8",-4050.2331,0.1774,18999
+lrds2_J142337,supplementary/desi,J142337,"Sections 2.3 and 4.4, Figure 8",-4138.4751,0.1464,19187
+lrds2_J150252,supplementary/desi,J150252,"Sections 2.3 and 4.4, Figure 8",-4344.9193,0.1654,21237
+lrds2_J161102,supplementary/desi,J161102,"Sections 2.3 and 4.4, Figure 8",-4394.8058,0.2088,19526
+lrds2_J162032,supplementary/desi,J162032,"Sections 2.3 and 4.4, Figure 8",-3720.5529,0.1043,14801
+lrds2_J164102,supplementary/desi,J164102,"Sections 2.3 and 4.4, Figure 8",-2394.9751,0.1152,16871
+lrds2_J164226,supplementary/desi,J164226,"Sections 2.3 and 4.4, Figure 8",-5725.7746,0.3141,32274
+lrds2_J164637,supplementary/desi,J164637,"Sections 2.3 and 4.4, Figure 8",-4548.0879,0.2667,24074
+lrds2_J165450,supplementary/desi,J165450,"Sections 2.3 and 4.4, Figure 8",-4224.5482,0.2402,19994
+lrds2_J171741,supplementary/desi,J171741,"Sections 2.3 and 4.4, Figure 8",-29192.1097,0.3993,41174
+lrds2_J190954,supplementary/desi,J190954,"Sections 2.3 and 4.4, Figure 8",-4415.5923,0.1390,20504
+lrds2_J212725,supplementary/desi,J212725,"Sections 2.3 and 4.4, Figure 8",-4018.9378,0.1303,17347
+lrds2_J225535,supplementary/desi,J225535,"Sections 2.3 and 4.4, Figure 8",-3832.0980,0.1124,14006
+glimpse17775_m3,supplementary/grating,GLIMPSE-17775,"Sections 2.3 and 4.4, Figure 8",-35474.2250,0.3495,41178
+A2744QSO1_m3,supplementary/prism,A2744QSO1,"Sections 2.3 and 4.4, Figure 8",-77.4004,0.1359,35600
+CEERS6126_m3,supplementary/prism,CEERS6126,"Sections 2.3 and 4.4, Figure 8",-128.2801,0.0838,22973
+CLIFF_m3_pilot,supplementary/prism,CLIFF_m3_pilot,"Sections 2.3 and 4.4, Figure 8",-52.3157,0.1099,32843
+EGS42046_m3,supplementary/prism,EGS42046,"Sections 2.3 and 4.4, Figure 8",-124.0432,0.1253,32651
+EGS49140_m3,supplementary/prism,EGS49140,"Sections 2.3 and 4.4, Figure 8",-82.0762,0.1208,31392
+EGS55604_m3,supplementary/prism,EGS55604,"Sections 2.3 and 4.4, Figure 8",-115.3873,0.1256,32339
+GN15498_fr_m3,supplementary/prism,GN15498,"Sections 2.3 and 4.4, Figure 8",-146.9453,0.1703,50709
+GN38147_dja_m3,supplementary/prism,GN38147,"Sections 2.3 and 4.4, Figure 8",-152.0028,0.1283,33712
+GN68797_dja_m3,supplementary/prism,GN68797,"Sections 2.3 and 4.4, Figure 8",-138.5294,0.1325,35057
+GN9771_fr_m3,supplementary/prism,GN9771,"Sections 2.3 and 4.4, Figure 8",-850.6691,0.2039,68643
+GS13971_fr_m3,supplementary/prism,GS13971,"Sections 2.3 and 4.4, Figure 8",-109.2796,0.1126,33613
+MoMBH1_m3,supplementary/prism,MoMBH1,"Sections 2.3 and 4.4, Figure 8",-135.8696,0.1080,29542
+RUBIES_EGS28812_m3,supplementary/prism,RUBIES-EGS28812,"Sections 2.3 and 4.4, Figure 8",-140.2557,0.1037,30524
+RUBIES_EGS29489_m3,supplementary/prism,RUBIES-EGS29489,"Sections 2.3 and 4.4, Figure 8",-135.1017,0.1315,35088
+RUBIES_EGS37124_m3,supplementary/prism,RUBIES-EGS37124,"Sections 2.3 and 4.4, Figure 8",-88.4724,0.0806,21779
+RUBIES_EGS42232_m3,supplementary/prism,RUBIES-EGS42232,"Sections 2.3 and 4.4, Figure 8",-78.6476,0.1057,31947
+RUBIES_EGS42803_m3,supplementary/prism,RUBIES-EGS42803,"Sections 2.3 and 4.4, Figure 8",-92.2940,0.0991,27729
+RUBIES_EGS53254_m3,supplementary/prism,RUBIES-EGS53254,"Sections 2.3 and 4.4, Figure 8",-83.6429,0.0557,18261
+RUBIES_EGS61496_m3,supplementary/prism,RUBIES-EGS61496,"Sections 2.3 and 4.4, Figure 8",-124.2592,0.0987,28384
+RUBIES_EGS926125_m3,supplementary/prism,RUBIES-EGS926125,"Sections 2.3 and 4.4, Figure 8",-107.4891,0.1003,29676
+RUBIES_EGS927271_m3,supplementary/prism,RUBIES-EGS927271,"Sections 2.3 and 4.4, Figure 8",-97.2336,0.0903,25001
+RUBIES_EGS948917_m3,supplementary/prism,RUBIES-EGS948917,"Sections 2.3 and 4.4, Figure 8",-85.3890,0.1129,34110
+RUBIES_EGS952625_m3,supplementary/prism,RUBIES-EGS952625,"Sections 2.3 and 4.4, Figure 8",-106.7905,0.0576,18640
+RUBIES_EGS966323_m3,supplementary/prism,RUBIES-EGS966323,"Sections 2.3 and 4.4, Figure 8",-72.3515,0.1065,25929
+RUBIES_UDS119957_m3,supplementary/prism,RUBIES-UDS119957,"Sections 2.3 and 4.4, Figure 8",-122.1616,0.1145,28975
+RUBIES_UDS144195_m3,supplementary/prism,RUBIES-UDS144195,"Sections 2.3 and 4.4, Figure 8",-67.2275,0.1091,32573
+RUBIES_UDS149298_m3,supplementary/prism,RUBIES-UDS149298,"Sections 2.3 and 4.4, Figure 8",-184.9358,0.1037,30002
+RUBIES_UDS167741_m3,supplementary/prism,RUBIES-UDS167741,"Sections 2.3 and 4.4, Figure 8",-104.3508,0.0983,28670
+RUBIES_UDS172350_m3,supplementary/prism,RUBIES-UDS172350,"Sections 2.3 and 4.4, Figure 8",-144.1208,0.1017,25283
+RUBIES_UDS23438_m3,supplementary/prism,RUBIES-UDS23438,"Sections 2.3 and 4.4, Figure 8",-147.2383,0.1211,31731
+RUBIES_UDS29813_m3,supplementary/prism,RUBIES-UDS29813,"Sections 2.3 and 4.4, Figure 8",-131.4040,0.1014,24680
+RUBIES_UDS31747_m3,supplementary/prism,RUBIES-UDS31747,"Sections 2.3 and 4.4, Figure 8",-107.0158,0.1021,29988
+RUBIES_UDS33938_m3,supplementary/prism,RUBIES-UDS33938,"Sections 2.3 and 4.4, Figure 8",-100.7936,0.0891,22134
+RUBIES_UDS36171_m3,supplementary/prism,RUBIES-UDS36171,"Sections 2.3 and 4.4, Figure 8",-113.8492,0.0691,19568
+RUBIES_UDS40579_m3,supplementary/prism,RUBIES-UDS40579,"Sections 2.3 and 4.4, Figure 8",-91.9043,0.1161,35831
+RUBIES_UDS50716_m3,supplementary/prism,RUBIES-UDS50716,"Sections 2.3 and 4.4, Figure 8",-125.2667,0.0809,20801
+RUBIES_UDS53692_m3,supplementary/prism,RUBIES-UDS53692,"Sections 2.3 and 4.4, Figure 8",-131.0302,0.0652,21159
+RUBIES_UDS807469_m3,supplementary/prism,RUBIES-UDS807469,"Sections 2.3 and 4.4, Figure 8",-174.5518,0.0667,20875
+RUBIES_UDS830237_m3,supplementary/prism,RUBIES-UDS830237,"Sections 2.3 and 4.4, Figure 8",-127.9187,0.0574,19790
+RUBIES_UDS848745_m3,supplementary/prism,RUBIES-UDS848745,"Sections 2.3 and 4.4, Figure 8",-97.7127,0.0885,24684
+RUBIES_UDS967770_m3,supplementary/prism,RUBIES-UDS967770,"Sections 2.3 and 4.4, Figure 8",-91.0085,0.0698,20510
+RUBIES_UDS970351_m3,supplementary/prism,RUBIES-UDS970351,"Sections 2.3 and 4.4, Figure 8",-155.3334,0.1075,26257
+SOK_1180_13329_m3,supplementary/prism,Sok-1180_13329,"Sections 2.3 and 4.4, Figure 8",-107.4525,0.1142,35822
+SOK_1181_53501_m3,supplementary/prism,Sok-1181_53501,"Sections 2.3 and 4.4, Figure 8",-137.7962,0.1358,40090
+SOK_1181_73488_m3,supplementary/prism,Sok-1181_73488,"Sections 2.3 and 4.4, Figure 8",-141.1121,0.1438,40954
+SOK_1286_159717_m3,supplementary/prism,Sok-1286_159717,"Sections 2.3 and 4.4, Figure 8",-198.2410,0.1215,36790
+SOK_1286_38562_m3,supplementary/prism,Sok-1286_38562,"Sections 2.3 and 4.4, Figure 8",-181.3842,0.1417,38387
+SOK_4106_83161_m3,supplementary/prism,Sok-4106_83161,"Sections 2.3 and 4.4, Figure 8",-134.1209,0.0649,21301
+SOK_4106_85168_m3,supplementary/prism,Sok-4106_85168,"Sections 2.3 and 4.4, Figure 8",-95.1231,0.0670,20498
+SOK_5224_920396_m3,supplementary/prism,Sok-5224_920396,"Sections 2.3 and 4.4, Figure 8",-94.0324,0.1260,32728
+UDS182791_m3,supplementary/prism,UDS182791,"Sections 2.3 and 4.4, Figure 8",-187.6443,0.1104,32560
+UDS31092_m3,supplementary/prism,UDS31092,"Sections 2.3 and 4.4, Figure 8",-114.1946,0.1243,32799
+UNCOVER45924_dja_m3,supplementary/prism,UNCOVER45924,"Sections 2.3 and 4.4, Figure 8",-166.1227,0.1410,39439

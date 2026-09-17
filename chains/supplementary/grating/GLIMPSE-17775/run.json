@@ -1,0 +1,76 @@
+{
+ "run_id": "glimpse17775_m3",
+ "family": "supplementary/grating",
+ "target": "GLIMPSE-17775",
+ "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "model rebuilt from driver (build_model_variant M3 free/free, mh free)",
+ "n_samples_released": 41178,
+ "n_samples_original": 41178,
+ "ndim": 18,
+ "driver": "fit_glimpse17775.py",
+ "spectrum_figure": "spectrum.png",
+ "summary": {
+  "teff": [
+   6260.164201627247,
+   6468.469672262923,
+   6514.802492633693
+  ],
+  "logg": [
+   -3.008432977199347,
+   -2.072860781411868,
+   -1.2381404296300735
+  ],
+  "logL_star": [
+   10.733093678738541,
+   10.736633475509969,
+   10.740573516111862
+  ],
+  "phi": [
+   18.2838632403037,
+   130.87270350879743,
+   1110.674406040872
+  ]
+ },
+ "summary_cold_component": {
+  "teff": [
+   3.103174126220469,
+   5.331951439361913,
+   8.074046922133052
+  ],
+  "logg": [
+   5.767687810476104,
+   13.955330377143383,
+   21.428866602668315
+  ],
+  "logL_cold": [
+   4.7739515059710325,
+   5.295744272568371,
+   6.036766236898384
+  ],
+  "phi": [
+   1.5552332853294026e-34,
+   4.221366036050112e-27,
+   7.27829668094621e-19
+  ]
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "run_id": "egg_liu2026_exact.BADPRIOR",
+ "family": "experiments/egg_model_finalization",
+ "target": "egg_liu2026_exact.BADPRIOR",
+ "paper_section": "Appendix C",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "xi_mtb",
+  "logmass",
+  "tage",
+  "AV",
+  "gas_logu",
+  "logL_dust",
+  "log_s"
+ ],
+ "parameter_source": "identical configuration to egg_liu2026_corrected (same ndim, same driver); labels taken from its run log",
+ "n_samples_released": 31110,
+ "n_samples_original": 31110,
+ "ndim": 10,
+ "driver": "fit_egg_model_finalization.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   4798.9400707958475,
+   4857.898104530151,
+   4953.33004742643
+  ],
+  "logg": [
+   -2.9923460502450303,
+   -2.9700528360677882,
+   -2.917968821380532
+  ],
+  "logL_star": [
+   7.466525622042034,
+   7.4880261116120845,
+   7.49698254605896
+  ],
+  "phi": [
+   298.20522783024177,
+   331.3657838211791,
+   357.6499586413581
+  ]
+ },
+ "summary_cold_component": null,
+ "known_issue": "Prior specification error found after the run. Superseded by egg_liu2026_corrected. Included for completeness; do not use for science."
+}

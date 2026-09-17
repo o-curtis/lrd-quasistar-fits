@@ -1,0 +1,51 @@
+{
+ "run_id": "CLIFF_m3_pilot",
+ "family": "supplementary/prism",
+ "target": "CLIFF_m3_pilot",
+ "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 32843,
+ "n_samples_original": 32843,
+ "ndim": 14,
+ "driver": "fit_cliff_m3.py",
+ "spectrum_figure": "spectrum.png",
+ "summary": {
+  "teff": [
+   4508.755334308211,
+   4674.705722819418,
+   4769.649616001382
+  ],
+  "logg": [
+   -3.329451198272227,
+   -2.9624942041538205,
+   -2.379683332611421
+  ],
+  "logL_star": [
+   10.557732222477622,
+   10.59867847690952,
+   10.65300496823197
+  ],
+  "phi": [
+   78.23449677543833,
+   264.79029397137907,
+   612.2396530917316
+  ]
+ },
+ "summary_cold_component": null
+}

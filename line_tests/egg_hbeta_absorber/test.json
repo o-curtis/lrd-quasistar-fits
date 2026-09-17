@@ -1,0 +1,16 @@
+{
+ "test": "egg_hbeta_absorber",
+ "paper_section": "Section 4.1",
+ "files": [
+  "egg_hb_absorber2.json",
+  "egg_hb_absorber2.py",
+  "egg_hb_absorberD.json",
+  "egg_hb_absorberD.py",
+  "egg_hb_absorberE.json",
+  "egg_hb_absorberE.py",
+  "egg_hb_family_redabs.json",
+  "egg_hb_family_redabs.py",
+  "egg_hb_joint.json",
+  "egg_hb_joint.py"
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "run_id": "BMKP_RS_m3c_smc",
+ "family": "primary",
+ "target": "GN-28074",
+ "paper_section": "Section 4.1, Table 1",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 50000,
+ "n_samples_original": 74182,
+ "ndim": 17,
+ "driver": "bmkp_fit_rs_m3c_smc.py",
+ "spectrum_figure": "spectrum.pdf",
+ "summary": {
+  "teff": [
+   4102.6004065642555,
+   4110.044293368255,
+   4116.965108436104
+  ],
+  "logg": [
+   -2.980540108412042,
+   -2.9080208377974213,
+   -2.858502375108424
+  ],
+  "logL_star": [
+   10.91945589494154,
+   10.926368257908901,
+   10.93247969966312
+  ],
+  "phi": [
+   132.83395886255113,
+   148.48502799566785,
+   174.71384089230784
+  ]
+ },
+ "summary_cold_component": null
+}

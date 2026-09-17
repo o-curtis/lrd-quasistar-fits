@@ -1,0 +1,51 @@
+{
+ "run_id": "CEERS6126_m3",
+ "family": "supplementary/prism",
+ "target": "CEERS6126",
+ "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 22973,
+ "n_samples_original": 22973,
+ "ndim": 14,
+ "driver": "fit_CEERS6126.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   5011.521422673644,
+   5267.386632486412,
+   5785.238943202247
+  ],
+  "logg": [
+   -2.9538393996062022,
+   -1.5093335109839563,
+   -0.275687159963164
+  ],
+  "logL_star": [
+   10.133501015855376,
+   10.232184096053594,
+   10.396293003539874
+  ],
+  "phi": [
+   0.9379493200889586,
+   16.59186455952737,
+   458.03368513138446
+  ]
+ },
+ "summary_cold_component": null
+}

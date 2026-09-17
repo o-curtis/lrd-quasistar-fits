@@ -1,0 +1,76 @@
+{
+ "run_id": "lrds2_MOCK_R5D_faint_super",
+ "family": "experiments/injection_recovery/desi",
+ "target": "MOCK_R5D_faint_super",
+ "paper_section": "Section 4.4",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 13871,
+ "n_samples_original": 13871,
+ "ndim": 18,
+ "driver": "fit_desi_lrds2_roar.py",
+ "spectrum_figure": "spectrum.png",
+ "summary": {
+  "teff": [
+   3979.3112538449177,
+   4481.140441931646,
+   5270.9253466367
+  ],
+  "logg": [
+   -2.7806396539441414,
+   -1.3418788577783127,
+   -0.2111420878994416
+  ],
+  "logL_star": [
+   7.951787208856426,
+   9.882469429559354,
+   10.0470114526758
+  ],
+  "phi": [
+   0.3617292735402531,
+   5.915555546857525,
+   170.2241572428644
+  ]
+ },
+ "summary_cold_component": {
+  "teff": [
+   4.480909608837914,
+   6.247174168053447,
+   7.889196338514908
+  ],
+  "logg": [
+   2.729799600048297,
+   11.048404834854605,
+   19.571973298187416
+  ],
+  "logL_cold": [
+   1.3067660405329993,
+   3.0858140912671574,
+   5.005752739679073
+  ],
+  "phi": [
+   1.315364467717581e-32,
+   6.1129063140347734e-24,
+   1.9222137898168796e-15
+  ]
+ }
+}

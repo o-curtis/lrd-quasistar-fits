@@ -1,0 +1,65 @@
+{
+ "run_id": "UNCOVER_2c_isophi_n2k_ujy_photcal",
+ "family": "experiments/geometry_ties/alternative_configurations",
+ "target": "UNCOVER_2c_isophi_n2k_ujy_photcal",
+ "paper_section": "Section 4.2",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma",
+  "teff_cold",
+  "logL_cold"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 50000,
+ "n_samples_original": 81162,
+ "ndim": 16,
+ "driver": "fit_uncover_2c_isophi_n2k_ujy_photcal.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   3986.9122754689147,
+   3996.5168195413867,
+   4004.187539430419
+  ],
+  "logg": [
+   -3.4551534904136223,
+   -3.378021268649112,
+   -3.269342740912309
+  ],
+  "logL_star": [
+   10.240665490693312,
+   10.24843814277791,
+   10.252361218033366
+  ],
+  "phi": [
+   303.82526571814157,
+   391.9725363152297,
+   468.10821169321116
+  ]
+ },
+ "summary_cold_component": {
+  "teff": [
+   2417.4266709076905,
+   3249.7232165776377,
+   3427.1997718793828
+  ],
+  "logL_cold": [
+   6.041742771869136,
+   6.58541797952214,
+   7.649665805470997
+  ],
+  "logg": "tied"
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "test": "rosetta_stone_lines",
+ "paper_section": "Section 4.6",
+ "files": [
+  "rs_absorption.pdf",
+  "rs_absorption.png",
+  "rs_absorption.py",
+  "rs_chromo_test.png"
+ ]
+}

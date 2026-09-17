@@ -1,0 +1,55 @@
+{
+ "run_id": "egg_duste_sfree_zfree_injrec",
+ "family": "experiments/injection_recovery/egg",
+ "target": "egg_duste_sfree_zfree_injrec",
+ "paper_section": "Appendix C",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "identical configuration to egg_duste_sfree_zfree (same ndim, same driver); labels taken from its run log",
+ "n_samples_released": 38701,
+ "n_samples_original": 38701,
+ "ndim": 18,
+ "driver": "fit_egg_model_finalization.py",
+ "spectrum_figure": "spectrum_model_finalization.png",
+ "summary": {
+  "teff": [
+   4470.648499860705,
+   4477.923575298747,
+   4484.952977528388
+  ],
+  "logg": [
+   -3.0120710854882122,
+   -3.0052892803465094,
+   -2.998129545180972
+  ],
+  "logL_star": [
+   9.887634054894606,
+   9.88991883253685,
+   9.891996424643889
+  ],
+  "phi": [
+   258.67051412793194,
+   261.72936877772617,
+   264.72120909535
+  ]
+ },
+ "summary_cold_component": null
+}

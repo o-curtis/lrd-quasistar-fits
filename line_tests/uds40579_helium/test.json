@@ -1,0 +1,8 @@
+{
+ "test": "uds40579_helium",
+ "paper_section": "Section 4.6",
+ "files": [
+  "uds40579_hei_look.png",
+  "uds40579_hei_result.json"
+ ]
+}

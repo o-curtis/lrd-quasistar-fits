@@ -1,0 +1,51 @@
+{
+ "run_id": "UNCOVER_1c_cool2600_smc_av3_ujy",
+ "family": "experiments/dust_law_and_configuration_sweep",
+ "target": "UNCOVER_1c_cool2600_smc_av3_ujy",
+ "paper_section": "Section 2.3",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 50000,
+ "n_samples_original": 58658,
+ "ndim": 14,
+ "driver": "fit_uncover_1c_cool2600_smc_av3_ujy.py",
+ "spectrum_figure": "spectrum.png",
+ "summary": {
+  "teff": [
+   2000.8803508837975,
+   2004.0236810827482,
+   2011.740038265642
+  ],
+  "logg": [
+   -0.44499908745087136,
+   -0.17053941976768527,
+   0.08357919893906063
+  ],
+  "logL_star": [
+   9.283890264150092,
+   9.34287062591625,
+   9.388879706421207
+  ],
+  "phi": [
+   0.008548488398108633,
+   0.015488216779234695,
+   0.028994514354867842
+  ]
+ },
+ "summary_cold_component": null
+}

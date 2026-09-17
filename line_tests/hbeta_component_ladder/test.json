@@ -1,0 +1,14 @@
+{
+ "test": "hbeta_component_ladder",
+ "paper_section": "Section 4.6",
+ "files": [
+  "definitive_egg_exp_params.npy",
+  "definitive_egg_fit.py",
+  "definitive_egg_gauss_params.npy",
+  "definitive_egg_ladder.json",
+  "definitive_egg_ladder_fixedabs.json",
+  "definitive_fit.log",
+  "expprofile_test.json",
+  "threecomp_test.json"
+ ]
+}

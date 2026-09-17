@@ -1,0 +1,51 @@
+{
+ "run_id": "MOCK_R5_bright_sub_m3",
+ "family": "experiments/injection_recovery/prism",
+ "target": "MOCK_R5_bright_sub",
+ "paper_section": "Section 4.4",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 29544,
+ "n_samples_original": 29544,
+ "ndim": 14,
+ "driver": "fit_MOCK_R5_bright_sub.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   3688.7687114334703,
+   4543.6915467471135,
+   5720.653214022315
+  ],
+  "logg": [
+   -2.9302491263107626,
+   -1.3268832504476977,
+   -0.2823854170981961
+  ],
+  "logL_star": [
+   5.4272917231309,
+   8.104174571543968,
+   9.46779739069873
+  ],
+  "phi": [
+   0.5305488253798847,
+   7.257879865580775,
+   201.52048955580315
+  ]
+ },
+ "summary_cold_component": null
+}

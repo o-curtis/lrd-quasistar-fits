@@ -1,0 +1,58 @@
+{
+ "run_id": "egg_duste_sfree_zfree_jitter_floor_speccal1_oldextrap",
+ "family": "experiments/egg_model_finalization",
+ "target": "egg_duste_sfree_zfree_jitter_floor_speccal1_oldextrap",
+ "paper_section": "Appendix C",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma",
+  "log_s_modsb",
+  "log_s_modsr",
+  "log_s_fire"
+ ],
+ "parameter_source": "identical configuration to egg_duste_sfree_zfree_jitter_floor_speccal1 (same ndim, same driver); labels taken from its run log",
+ "n_samples_released": 43692,
+ "n_samples_original": 43692,
+ "ndim": 21,
+ "driver": "fit_egg_model_finalization.py",
+ "spectrum_figure": "spectrum_model_finalization.png",
+ "summary": {
+  "teff": [
+   4569.518349495466,
+   4579.808543816218,
+   4590.61267176847
+  ],
+  "logg": [
+   -3.3810470215585227,
+   -3.3532972948495865,
+   -3.3312290199372554
+  ],
+  "logL_star": [
+   8.200720862899454,
+   8.39594788403879,
+   8.602024599311019
+  ],
+  "phi": [
+   602.1568704600708,
+   637.7182434821317,
+   685.8250201035648
+  ]
+ },
+ "summary_cold_component": null
+}

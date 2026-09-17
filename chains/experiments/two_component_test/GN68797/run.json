@@ -1,0 +1,75 @@
+{
+ "run_id": "GN68797_dja_m3_2c",
+ "family": "experiments/two_component_test",
+ "target": "GN68797",
+ "paper_section": "Section 4.4",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma",
+  "teff_cold",
+  "logg_cold",
+  "logL_cold"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 35147,
+ "n_samples_original": 35147,
+ "ndim": 17,
+ "driver": "fit2c_GN68797_dja.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   3824.6449128160566,
+   3918.819828081512,
+   3995.79214609022
+  ],
+  "logg": [
+   -0.5783243405149261,
+   -0.1456574684972578,
+   0.19912868716258325
+  ],
+  "logL_star": [
+   11.433021463036923,
+   11.471845501500825,
+   11.500156133545518
+  ],
+  "phi": [
+   0.09462229121056644,
+   0.2068643575416102,
+   0.5725758122337394
+  ]
+ },
+ "summary_cold_component": {
+  "teff": [
+   2977.8521634295475,
+   3249.214622363471,
+   3412.751157829882
+  ],
+  "logg": [
+   -2.731213456339019,
+   -1.2551930718435456,
+   -0.2745048414187883
+  ],
+  "logL_cold": [
+   5.532488447443007,
+   6.8434093004398715,
+   8.357902731366304
+  ],
+  "phi": [
+   0.13010240659695185,
+   1.2135843366480363,
+   33.90194272570283
+  ]
+ }
+}

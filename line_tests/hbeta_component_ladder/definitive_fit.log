@@ -1,0 +1,11 @@
+ gauss: chi2=   7474.3  k=19  BIC=   7592.3
+        narrow dv=-0 sn=67 | dvb=+57 sb=738 Ab=2.70
+        outflow dvi=-126 si=150 Ai=2.25 | abs dva=-206 sa=40 Aa=-2.12
+   exp: chi2=   7148.3  k=19  BIC=   7266.3
+        narrow dv=-0 sn=67 | dve=+44 W=464 Ab=8.27
+        outflow dvi=-112 si=154 Ai=89.32 | abs dva=-100 sa=160 Aa=-94.14
+nested floor [gauss]: chi2(full)=7474.3 <= chi2(sub-at-optimum)=9971.3: OK
+nested floor [exp]: chi2(full)=7148.3 <= chi2(sub-at-optimum)=13478.9: OK
+
+Delta chi2 (exp - gauss) = -326.0 at equal k -> EXPONENTIAL preferred
+saved params + ladder
