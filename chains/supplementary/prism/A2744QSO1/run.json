@@ -1,8 +1,8 @@
 {
- "run_id": "A2744QSO1_m3",
+ "run_id": "BMKA_A2744QSO1",
  "family": "supplementary/prism",
  "target": "A2744QSO1",
- "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "paper_section": "Sections 2.3 and 4.4, Figures 5-7",
  "parameters": [
   "teff",
   "logg",
@@ -20,32 +20,33 @@
   "duste_gamma"
  ],
  "parameter_source": "run log",
- "n_samples_released": 35600,
- "n_samples_original": 35600,
+ "n_samples_released": 36348,
+ "n_samples_original": 36348,
  "ndim": 14,
- "driver": "fit_A2744QSO1.py",
+ "driver": "fit_breakmask_arch.py",
  "spectrum_figure": "spectrum.png",
  "summary": {
   "teff": [
-   4711.699490373685,
-   4766.408405734292,
-   4916.258003728655
+   4710.487269904096,
+   4769.859895113311,
+   4907.274318782595
   ],
   "logg": [
-   -3.1060723030263153,
-   -2.726768635968666,
-   -2.0844642995162532
+   -3.2635282217713164,
+   -2.711348160759778,
+   -1.854977796732868
   ],
   "logL_star": [
-   10.620592002987609,
-   10.644416740824127,
-   10.666056458587683
+   10.614979216672927,
+   10.637666029116897,
+   10.664836160814593
   ],
   "phi": [
-   45.89880240201302,
-   172.80034466712755,
-   411.5812317211784
+   27.026619260517105,
+   166.69840445218964,
+   592.234233380688
   ]
  },
- "summary_cold_component": null
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

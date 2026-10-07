@@ -1,8 +1,8 @@
 {
- "run_id": "A2744QSO1B_m3",
+ "run_id": "BMKA_A2744QSO1B",
  "family": "experiments/duplicate_reduction",
  "target": "A2744-QSO1_reduction-B",
- "paper_section": "Section 4.4",
+ "paper_section": "Not quoted in v2 (v1 Section 4.4)",
  "parameters": [
   "teff",
   "logg",
@@ -20,32 +20,33 @@
   "duste_gamma"
  ],
  "parameter_source": "run log",
- "n_samples_released": 32508,
- "n_samples_original": 32508,
+ "n_samples_released": 30390,
+ "n_samples_original": 30390,
  "ndim": 14,
- "driver": "fit_A2744QSO1B.py",
+ "driver": "fit_breakmask_arch.py",
  "spectrum_figure": "spectrum.png",
  "summary": {
   "teff": [
-   4463.19023323926,
-   4667.348520374266,
-   4771.497848647183
+   4370.959816379479,
+   4548.3101180004305,
+   4695.851805752155
   ],
   "logg": [
-   -3.2419959588866036,
-   -2.4616284358978167,
-   -1.7754632838681639
+   -3.338516509949455,
+   -2.9788075694573397,
+   -1.3663452866255148
   ],
   "logL_star": [
-   10.71824293292276,
-   10.746480632095086,
-   10.775575091536279
+   10.729313557093743,
+   10.766470229138156,
+   10.81118193984443
   ],
   "phi": [
-   19.82885546562361,
-   90.92094148139023,
-   449.08486317744536
+   7.456804175987676,
+   242.16674119280677,
+   550.5654451643707
   ]
  },
- "summary_cold_component": null
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

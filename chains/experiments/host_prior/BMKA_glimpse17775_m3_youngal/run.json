@@ -1,0 +1,58 @@
+{
+ "run_id": "BMKA_glimpse17775_m3_youngal",
+ "family": "experiments/host_prior",
+ "target": "BMKA_glimpse17775_m3_youngal",
+ "paper_section": "Section 4.4, Figures 5 and 6",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "parent configuration (identical model, host forced young)",
+ "n_samples_released": 28998,
+ "n_samples_original": 28998,
+ "ndim": 18,
+ "driver": "_variant.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   6490.928616449958,
+   6498.475055570977,
+   6501.4422550227955
+  ],
+  "logg": [
+   -2.9177274475203427,
+   -1.842031725357446,
+   -1.2052547522284356
+  ],
+  "logL_star": [
+   10.774300832441696,
+   10.787329163730726,
+   10.800230815583477
+  ],
+  "phi": [
+   18.23907324020663,
+   79.67018456033055,
+   949.1834007665406
+  ]
+ },
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood",
+ "variant": "youngal",
+ "variant_of": "bmka_fit_glimpse17775.py"
+}

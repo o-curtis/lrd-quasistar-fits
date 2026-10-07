@@ -1,0 +1,56 @@
+{
+ "run_id": "DLAW_egg_duste_sfree_zfree_calz_bmkp",
+ "family": "experiments/dust_law_and_configuration_sweep",
+ "target": "DLAW_egg_duste_sfree_zfree_calz_bmkp",
+ "paper_section": "Section 2.3",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "parent configuration (identical model, Calzetti attenuation)",
+ "n_samples_released": 37216,
+ "n_samples_original": 37216,
+ "ndim": 18,
+ "driver": "fit_egg_dustlaw.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   4499.880156395326,
+   4500.002667259472,
+   4500.119864142752
+  ],
+  "logg": [
+   -3.4159898678526672,
+   -3.261771792643132,
+   -3.0951925661238935
+  ],
+  "logL_star": [
+   9.917636144522735,
+   9.918637062663942,
+   9.919288882637689
+  ],
+  "phi": [
+   328.3044365344006,
+   481.83493145534595,
+   687.2964990036854
+  ]
+ },
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
+}

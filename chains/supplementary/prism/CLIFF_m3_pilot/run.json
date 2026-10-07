@@ -1,8 +1,8 @@
 {
- "run_id": "CLIFF_m3_pilot",
+ "run_id": "BMKA_CLIFF_m3_pilot",
  "family": "supplementary/prism",
  "target": "CLIFF_m3_pilot",
- "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "paper_section": "Sections 2.3 and 4.4, Figures 5-7",
  "parameters": [
   "teff",
   "logg",
@@ -19,33 +19,34 @@
   "duste_qpah",
   "duste_gamma"
  ],
- "parameter_source": "run log",
- "n_samples_released": 32843,
- "n_samples_original": 32843,
+ "parameter_source": "parent configuration (identical model, break mask added)",
+ "n_samples_released": 32238,
+ "n_samples_original": 32238,
  "ndim": 14,
- "driver": "fit_cliff_m3.py",
+ "driver": "bmka_fit_cliff_m3.py",
  "spectrum_figure": "spectrum.png",
  "summary": {
   "teff": [
-   4508.755334308211,
-   4674.705722819418,
-   4769.649616001382
+   4462.00041475944,
+   4610.657988670998,
+   4723.687186468986
   ],
   "logg": [
-   -3.329451198272227,
-   -2.9624942041538205,
-   -2.379683332611421
+   -3.3306593480065887,
+   -3.005005148250694,
+   -2.3756366462856824
   ],
   "logL_star": [
-   10.557732222477622,
-   10.59867847690952,
-   10.65300496823197
+   10.538539055154663,
+   10.564844050149636,
+   10.614681549104507
   ],
   "phi": [
-   78.23449677543833,
-   264.79029397137907,
-   612.2396530917316
+   74.44761659334056,
+   276.54387315408616,
+   585.6853964324279
   ]
  },
- "summary_cold_component": null
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

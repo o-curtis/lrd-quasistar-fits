@@ -1,8 +1,8 @@
 {
- "run_id": "UNCOVER45924_dja_m3",
+ "run_id": "BMK_45924",
  "family": "supplementary/prism",
  "target": "UNCOVER45924",
- "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "paper_section": "Sections 2.3 and 4.4, Figures 5-7",
  "parameters": [
   "teff",
   "logg",
@@ -19,33 +19,34 @@
   "duste_qpah",
   "duste_gamma"
  ],
- "parameter_source": "run log",
- "n_samples_released": 39439,
- "n_samples_original": 39439,
+ "parameter_source": "parent configuration (identical model, break mask added)",
+ "n_samples_released": 38323,
+ "n_samples_original": 38323,
  "ndim": 14,
- "driver": "fit_UNCOVER45924_dja.py",
+ "driver": "fit_breakmask.py",
  "spectrum_figure": "spectrum.png",
  "summary": {
   "teff": [
-   4989.9365314309825,
-   5100.1510921592435,
-   5215.151236131748
+   4999.150012880655,
+   5047.523993833751,
+   5117.587905999168
   ],
   "logg": [
-   -2.7444045453069585,
-   -2.378818747114349,
-   -2.2073059955634697
+   -3.203318870661469,
+   -2.871098721865855,
+   -2.489482758839168
   ],
   "logL_star": [
-   11.386667499563771,
-   11.410963458667997,
-   11.431020410971247
+   11.40392733229324,
+   11.436325915309796,
+   11.453434286849289
   ],
   "phi": [
-   75.54845691520484,
-   103.62114832304418,
-   213.78778038220756
+   129.5102921968284,
+   311.43043562436935,
+   671.6257723323325
   ]
  },
- "summary_cold_component": null
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

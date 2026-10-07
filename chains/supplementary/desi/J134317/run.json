@@ -1,8 +1,8 @@
 {
- "run_id": "lrds2_J134317",
+ "run_id": "lrds2M_J134317",
  "family": "supplementary/desi",
  "target": "J134317",
- "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "paper_section": "Sections 2.3 and 4.4, Figures 5-7",
  "parameters": [
   "teff",
   "logg",
@@ -23,54 +23,34 @@
   "duste_qpah",
   "duste_gamma"
  ],
- "parameter_source": "run log",
- "n_samples_released": 18999,
- "n_samples_original": 18999,
+ "parameter_source": "parent configuration (identical model, break mask added)",
+ "n_samples_released": 17715,
+ "n_samples_original": 17715,
  "ndim": 18,
- "driver": "fit_desi_lrds2_roar.py",
+ "driver": "fit_desi_lrds2_breakmask.py",
  "spectrum_figure": "spectrum.png",
  "summary": {
   "teff": [
-   4858.7510506819735,
-   4917.843989369084,
-   4960.317240601545
+   3595.1911953842837,
+   3774.7550683173818,
+   3961.788520999834
   ],
   "logg": [
-   -2.54321159928835,
-   -2.4514192053160686,
-   -2.3254517812540985
+   -1.976697355131375,
+   -1.2848863658072163,
+   -0.4251139712434542
   ],
   "logL_star": [
-   6.733545933068965,
-   6.794940431878867,
-   6.878883591326704
+   9.142095905140174,
+   9.186824315527936,
+   9.228394689722121
   ],
   "phi": [
-   81.06912261879225,
-   106.8577283289562,
-   131.66429748108806
+   0.3483192636836813,
+   2.5869498840701404,
+   12.410494467245275
   ]
  },
- "summary_cold_component": {
-  "teff": [
-   5.521715275947045,
-   5.676065472653019,
-   5.768159698570106
-  ],
-  "logg": [
-   16.305995799683593,
-   16.790215179290897,
-   17.259450807976897
-  ],
-  "logL_cold": [
-   0.6600347477343537,
-   0.8037242023900526,
-   1.0222073042405575
-  ],
-  "phi": [
-   3.759634453536343e-30,
-   1.0930294677620746e-29,
-   3.347056998431232e-29
-  ]
- }
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

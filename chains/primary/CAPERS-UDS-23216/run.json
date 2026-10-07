@@ -71,5 +71,6 @@
    0.028584073201221603,
    0.13514460699973313
   ]
- }
+ },
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

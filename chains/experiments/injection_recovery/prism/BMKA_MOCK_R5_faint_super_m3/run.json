@@ -1,0 +1,52 @@
+{
+ "run_id": "BMKA_MOCK_R5_faint_super_m3",
+ "family": "experiments/injection_recovery/prism",
+ "target": "BMKA_MOCK_R5_faint_super_m3",
+ "paper_section": "Not quoted in v2 (v1 Section 4.4)",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "parent configuration (identical model, break mask added)",
+ "n_samples_released": 17142,
+ "n_samples_original": 17142,
+ "ndim": 14,
+ "driver": "bmka_fit_MOCK_R5_faint_super.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   3074.0407655654785,
+   4714.509222254653,
+   6063.126929742455
+  ],
+  "logg": [
+   -2.6292546901255123,
+   -1.2149114071179214,
+   0.030572634062766113
+  ],
+  "logL_star": [
+   6.265570984908166,
+   8.78885355362927,
+   10.538384085019002
+  ],
+  "phi": [
+   0.1920838860667191,
+   4.1618079477892,
+   115.61799194842958
+  ]
+ },
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
+}

@@ -1,0 +1,56 @@
+{
+ "run_id": "lrds2MY_J000927",
+ "family": "experiments/host_prior",
+ "target": "lrds2MY_J000927",
+ "paper_section": "Section 4.4, Figures 5 and 6",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "parent configuration (identical model, host forced young)",
+ "n_samples_released": 18876,
+ "n_samples_original": 18876,
+ "ndim": 18,
+ "driver": "fit_desi_lrds2_youngal_bmk.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   3591.6948607094337,
+   3790.6109665716303,
+   4051.092415265456
+  ],
+  "logg": [
+   -2.6990555433206516,
+   -1.7685265228508062,
+   -1.1204514393410605
+  ],
+  "logL_star": [
+   9.868508231429034,
+   9.936484028222413,
+   10.008001180048687
+  ],
+  "phi": [
+   1.5849982199698922,
+   8.099547331625988,
+   73.25437460545069
+  ]
+ },
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
+}

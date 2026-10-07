@@ -1,8 +1,8 @@
 {
- "run_id": "SOK_5224_920396_m3",
+ "run_id": "BMKA_SOK_5224_920396",
  "family": "supplementary/prism",
  "target": "Sok-5224_920396",
- "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "paper_section": "Sections 2.3 and 4.4, Figures 5-7",
  "parameters": [
   "teff",
   "logg",
@@ -20,32 +20,33 @@
   "duste_gamma"
  ],
  "parameter_source": "run log",
- "n_samples_released": 32728,
- "n_samples_original": 32728,
+ "n_samples_released": 32114,
+ "n_samples_original": 32114,
  "ndim": 14,
- "driver": "fit_SOK_5224_920396.py",
+ "driver": "fit_breakmask_arch.py",
  "spectrum_figure": "spectrum.png",
  "summary": {
   "teff": [
-   4299.052273480063,
-   4584.960371666277,
-   4782.639303753812
+   4214.284678469615,
+   4509.423462654826,
+   4764.231567248544
   ],
   "logg": [
-   -0.8894234873963567,
-   -0.0074016277404309605,
-   0.35926740876223046
+   -1.4717502971093457,
+   -0.3054869705440302,
+   0.27012129925819695
   ],
   "logL_star": [
-   10.334041771008161,
-   10.374609853062113,
-   10.431323589312926
+   10.32340128866609,
+   10.378858539543298,
+   10.444595724029918
   ],
   "phi": [
-   0.10700968201666577,
-   0.27787052475239055,
-   2.4181702579032462
+   0.12004953020670432,
+   0.5007070768931857,
+   9.525340418723326
   ]
  },
- "summary_cold_component": null
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

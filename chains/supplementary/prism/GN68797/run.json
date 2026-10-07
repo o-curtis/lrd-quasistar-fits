@@ -1,8 +1,8 @@
 {
- "run_id": "GN68797_dja_m3",
+ "run_id": "BMKA_GN68797_dja_m3",
  "family": "supplementary/prism",
  "target": "GN68797",
- "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "paper_section": "Sections 2.3 and 4.4, Figures 5-7",
  "parameters": [
   "teff",
   "logg",
@@ -20,32 +20,33 @@
   "duste_gamma"
  ],
  "parameter_source": "run log",
- "n_samples_released": 35057,
- "n_samples_original": 35057,
+ "n_samples_released": 34182,
+ "n_samples_original": 34182,
  "ndim": 14,
- "driver": "fit_GN68797_dja.py",
+ "driver": "bmka_fit_GN68797_dja.py",
  "spectrum_figure": "spectrum.png",
  "summary": {
   "teff": [
-   3779.1235469750864,
-   3876.6495442067444,
-   3989.3912195786206
+   3755.59992653883,
+   3866.031178716644,
+   3978.9615441540586
   ],
   "logg": [
-   -0.37895495670744506,
-   0.16776269228224994,
-   0.39245651084150923
+   -0.47171590401441765,
+   -0.003769170031205249,
+   0.35058085979231574
   ],
   "logL_star": [
-   11.451152528889446,
-   11.480049020614949,
-   11.502887014244486
+   11.441759464264436,
+   11.47669382709818,
+   11.501648124901996
   ],
   "phi": [
-   0.05895783787785785,
-   0.09715477403392564,
-   0.34309572461898236
+   0.06176457581334724,
+   0.1462625001519736,
+   0.43072524948651447
   ]
  },
- "summary_cold_component": null
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

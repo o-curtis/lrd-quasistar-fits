@@ -1,8 +1,8 @@
 {
- "run_id": "RUBIES_UDS31747_m3",
+ "run_id": "BMKA_RUBIES_UDS31747",
  "family": "supplementary/prism",
  "target": "RUBIES-UDS31747",
- "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "paper_section": "Sections 2.3 and 4.4, Figures 5-7",
  "parameters": [
   "teff",
   "logg",
@@ -20,32 +20,33 @@
   "duste_gamma"
  ],
  "parameter_source": "run log",
- "n_samples_released": 29988,
- "n_samples_original": 29988,
+ "n_samples_released": 28248,
+ "n_samples_original": 28248,
  "ndim": 14,
- "driver": "fit_RUBIES_UDS31747.py",
+ "driver": "fit_breakmask_arch.py",
  "spectrum_figure": "spectrum.png",
  "summary": {
   "teff": [
-   4716.573196074131,
-   4802.505122707067,
-   4917.879831747436
+   4730.607568178735,
+   4828.36464009197,
+   4963.301233699053
   ],
   "logg": [
-   -3.2858712452720966,
-   -2.848671888722541,
-   -2.098936695587458
+   -3.179996778352567,
+   -2.6690246136469664,
+   -1.2209884890129123
   ],
   "logL_star": [
-   10.179720775074983,
-   10.22750277862294,
-   10.28965120365062
+   10.180988736489972,
+   10.231346176594883,
+   10.29235296834005
   ],
   "phi": [
-   46.9016313535783,
-   237.5786797606343,
-   645.0221013415269
+   6.521143745883253,
+   158.40340296176896,
+   516.5615428870173
   ]
  },
- "summary_cold_component": null
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

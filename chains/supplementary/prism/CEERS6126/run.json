@@ -1,8 +1,8 @@
 {
- "run_id": "CEERS6126_m3",
+ "run_id": "BMKA_CEERS6126_m3",
  "family": "supplementary/prism",
  "target": "CEERS6126",
- "paper_section": "Sections 2.3 and 4.4, Figure 8",
+ "paper_section": "Sections 2.3 and 4.4, Figures 5-7",
  "parameters": [
   "teff",
   "logg",
@@ -20,32 +20,33 @@
   "duste_gamma"
  ],
  "parameter_source": "run log",
- "n_samples_released": 22973,
- "n_samples_original": 22973,
+ "n_samples_released": 23532,
+ "n_samples_original": 23532,
  "ndim": 14,
- "driver": "fit_CEERS6126.py",
- "spectrum_figure": null,
+ "driver": "bmka_fit_CEERS6126.py",
+ "spectrum_figure": "spectrum.png",
  "summary": {
   "teff": [
-   5011.521422673644,
-   5267.386632486412,
-   5785.238943202247
+   4967.129285788342,
+   5347.835943309168,
+   6166.535214141001
   ],
   "logg": [
-   -2.9538393996062022,
-   -1.5093335109839563,
-   -0.275687159963164
+   -3.043803539201688,
+   -2.2059492709284036,
+   -1.1105558858341995
   ],
   "logL_star": [
-   10.133501015855376,
-   10.232184096053594,
-   10.396293003539874
+   10.125674242228904,
+   10.281191884276396,
+   10.48153729279981
   ],
   "phi": [
-   0.9379493200889586,
-   16.59186455952737,
-   458.03368513138446
+   8.148301220530985,
+   94.52189636264605,
+   576.442215621941
   ]
  },
- "summary_cold_component": null
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

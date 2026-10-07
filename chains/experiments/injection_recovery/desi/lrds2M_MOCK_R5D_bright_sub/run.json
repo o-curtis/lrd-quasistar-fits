@@ -1,0 +1,56 @@
+{
+ "run_id": "lrds2M_MOCK_R5D_bright_sub",
+ "family": "experiments/injection_recovery/desi",
+ "target": "lrds2M_MOCK_R5D_bright_sub",
+ "paper_section": "Not quoted in v2 (v1 Section 4.4)",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "parent configuration (identical model, break mask added)",
+ "n_samples_released": 20028,
+ "n_samples_original": 20028,
+ "ndim": 18,
+ "driver": "fit_desi_lrds2_breakmask.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   4547.9672826538845,
+   4596.281567528178,
+   4648.183384772257
+  ],
+  "logg": [
+   -1.127782739020628,
+   -0.9398770569597974,
+   -0.779737993802466
+  ],
+  "logL_star": [
+   10.48500218301706,
+   10.508457142161342,
+   10.53343950035865
+  ],
+  "phi": [
+   1.7269662299498252,
+   2.499866821763961,
+   3.8422004978271147
+  ]
+ },
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
+}

@@ -51,5 +51,6 @@
    338.93380131372504
   ]
  },
- "summary_cold_component": null
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A and the Ca II H and K cores excluded from the likelihood"
 }

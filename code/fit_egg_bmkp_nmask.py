@@ -26,8 +26,8 @@ import numpy as np
 import dynesty
 from dynesty.utils import resample_equal
 
-os.environ['SPS_HOME'] = '/home/omc5226/prospector_tlusty_dev/fsps_fresh/fsps-master'
-sys.path.insert(0, '/home/omc5226/prospector_tlusty_dev/prospector')
+os.environ['SPS_HOME'] = '/storage/group/jtw13/default/oCurtisWorkDir/lrdmesa/water-dot-tests/sps-data/fsps-master'
+sys.path.insert(0, '/storage/group/jtw13/default/oCurtisWorkDir/lrdmesa/water-dot-tests/stack/prospector')
 
 import importlib.util
 _spec = importlib.util.spec_from_file_location(

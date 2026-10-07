@@ -1,0 +1,57 @@
+{
+ "run_id": "BMKP_RS_m3c_smc_youngal",
+ "family": "experiments/host_prior",
+ "target": "BMKP_RS_m3c_smc_youngal",
+ "paper_section": "Section 4.4, Figures 5 and 6",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "parent configuration (identical model, host forced young)",
+ "n_samples_released": 50000,
+ "n_samples_original": 55120,
+ "ndim": 17,
+ "driver": "_variant.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   4155.719142201223,
+   4174.522461792609,
+   4196.0781810036115
+  ],
+  "logg": [
+   -2.2539944156491316,
+   -2.2377534698604533,
+   -2.2051899313328813
+  ],
+  "logL_star": [
+   10.939346675858076,
+   10.954127645952896,
+   10.970737136939707
+  ],
+  "phi": [
+   31.399973377058682,
+   33.73168474626788,
+   35.21646822484101
+  ]
+ },
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood",
+ "variant": "youngal",
+ "variant_of": "bmkp_fit_rs_m3c_smc.py"
+}

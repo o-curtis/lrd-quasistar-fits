@@ -1,0 +1,52 @@
+{
+ "run_id": "BMKY_RUBIES_UDS33938",
+ "family": "experiments/host_prior",
+ "target": "BMKY_RUBIES_UDS33938",
+ "paper_section": "Section 4.4, Figures 5 and 6",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 21346,
+ "n_samples_original": 21346,
+ "ndim": 14,
+ "driver": "fit_breakmask_arch_young.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   3339.3354847106466,
+   3853.598066472382,
+   4447.499168387389
+  ],
+  "logg": [
+   -2.926715041412253,
+   -1.8632291262846692,
+   -0.5359990753610551
+  ],
+  "logL_star": [
+   10.150146433945231,
+   10.43387511641194,
+   10.657668452505245
+  ],
+  "phi": [
+   0.5060425689909106,
+   10.791308596655114,
+   113.71167479118644
+  ]
+ },
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
+}

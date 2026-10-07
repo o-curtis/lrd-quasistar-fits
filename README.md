@@ -77,36 +77,46 @@ Each run directory holds its chain, its metadata, and its figures.
 
 ## What is here, and where it appears in the paper
 
+Every posterior in this release was computed with rest-frame 3400-4100 A excluded from the
+likelihood, the Balmer-break mask that Section 2.3 of the paper describes. The Egg fit also
+excludes the Ca II H and K cores. No fit that kept the break region is released; the fits of
+that kind in earlier versions of this repository were superseded when the paper adopted the
+mask and have been removed.
+
 | directory | runs | spectra | paper |
 |---|---|---|---|
 | `chains/primary/` | 5 | 5 | Section 4.1, Table 1 |
-| `chains/supplementary/prism/` | 53 | 50 | Sections 2.3 and 4.4, Figure 8 |
-| `chains/supplementary/desi/` | 28 | 28 | Sections 2.3 and 4.4, Figure 8 |
-| `chains/supplementary/grating/` | 1 | 1 | Sections 2.3 and 4.4, Figure 8 |
-| `chains/experiments/geometry_ties/` | 6 | 4 | Section 4.2 |
-| `chains/experiments/geometry_ties/alternative_configurations/` | 18 | 14 | Section 4.2, alternative configurations |
-| `chains/experiments/two_component_test/` | 49 | 0 | Section 4.4 |
-| `chains/experiments/injection_recovery/prism/` | 7 | 0 | Section 4.4 |
-| `chains/experiments/injection_recovery/desi/` | 4 | 4 | Section 4.4 |
-| `chains/experiments/injection_recovery/egg/` | 2 | 1 | Appendix C |
-| `chains/experiments/duplicate_reduction/` | 1 | 1 | Section 4.4 |
-| `chains/experiments/dust_law_and_configuration_sweep/` | 170 | 145 | Section 2.3 |
+| `chains/supplementary/prism/` | 53 | 53 | Sections 2.3 and 4.4, Figures 5-7 |
+| `chains/supplementary/desi/` | 28 | 28 | Sections 2.3 and 4.4, Figures 5-7 |
+| `chains/supplementary/grating/` | 1 | 1 | Sections 2.3 and 4.4, Figures 5-7 |
+| `chains/experiments/host_prior/` | 89 | 2 | Section 4.4, Figures 5 and 6 |
 | `chains/experiments/photometric_anchoring/` | 7 | 7 | Section 2.1 |
-| `chains/experiments/host_prior/` | 8 | 4 | Sections 4.3 and 4.4 |
-| `chains/experiments/egg_model_finalization/` | 20 | 17 | Appendix C |
-| **total** | **379** | **281** | |
+| `chains/experiments/dust_law_and_configuration_sweep/` | 4 | 1 | Section 2.3 |
+| `chains/experiments/egg_model_finalization/` | 6 | 0 | Appendix C |
+| `chains/experiments/two_component_test/` | 46 | 0 | not quoted in v2 (v1 Section 4.4) |
+| `chains/experiments/injection_recovery/prism/` | 5 | 0 | not quoted in v2 (v1 Section 4.4) |
+| `chains/experiments/injection_recovery/desi/` | 4 | 0 | not quoted in v2 (v1 Section 4.4) |
+| `chains/experiments/injection_recovery/egg/` | 2 | 0 | not quoted in v2 (v1 Appendix C) |
+| `chains/experiments/duplicate_reduction/` | 1 | 1 | not quoted in v2 (v1 Section 4.4) |
+| **total** | **251** | **98** | |
 
-Spectrum figures exist for every fit whose overlay was rendered during the analysis, which
-covers the five primary sources, the full supplementary sample except CEERS-6126, MoM-BH\*-1
-and UDS-31092, the DESI injections, the Egg ladder, and most of the water-dot experiments. The
-archival experiment refits reuse the same data as their parent fit and were compared through
-parameters and evidence rather than by eye, so no overlay was drawn for them.
+Section and figure numbers refer to arXiv:2609.09265v2. Families marked "not quoted in v2"
+were discussed in the first arXiv version and are kept so that those statements remain
+reproducible under the adopted mask.
+
+Spectrum figures exist for the five primary sources, every supplementary source, the
+photometric-anchoring variants, the UNCOVER-A2744-20698 `_xmask` variant on the spectrum as
+observed, the duplicate reduction of A2744-QSO1, and the two water-dot young-host fits that were
+rendered during the analysis. The
+supplementary figures draw the model at the posterior median over the data, with masked pixels
+in light grey. The remaining experiment refits reuse the same data as their parent fit and were
+compared through parameters and evidence rather than by eye, so no overlay was drawn for them.
 
 ### The primary fits
 
 | target | directory | data | free parameters |
 |---|---|---|---|
-| J1025+1402 (The Egg) | `chains/primary/J1025+1402` | LBT/MODS-B, MODS-R and Magellan/FIRE, Ca II H and K cores (rest-frame 3900-3980 A) excluded | 18 |
+| J1025+1402 (The Egg) | `chains/primary/J1025+1402` | LBT/MODS-B, MODS-R and Magellan/FIRE, rest-frame 3400-4100 A and the Ca II H and K cores excluded | 18 |
 | GN-28074 (the Rosetta Stone) | `chains/primary/GN-28074` | JWST/NIRSpec G140M, G235M and G395M, rest-frame 3400-4100 A excluded | 17 |
 | WIDE-EGS-2974 | `chains/primary/WIDE-EGS-2974` | JWST/NIRSpec PRISM as observed, two photospheres, rest-frame 3400-4100 A excluded | 17 |
 | UNCOVER-A2744-20698 | `chains/primary/UNCOVER-A2744-20698` | JWST/NIRSpec PRISM at R = 300, rescaled to its NIRCam photometry, two photospheres, rest-frame 3400-4100 A excluded | 17 |
@@ -118,64 +128,32 @@ there rather than assuming a layout.
 
 ### The supplementary sample
 
-The 82 supplementary sources of Figure 8 are 53 archival PRISM spectra
+The 82 supplementary sources of Figures 5-7 are 53 archival PRISM spectra
 (11 from Naidu et al. 2026, 30 RUBIES from Hviding et al. 2025, 8 from Sok et al. 2026, and
 A2744-QSO1, MoM-BH\*-1, CEERS-6126 and UDS-31092), 28 DESI spectra from Lin et al. 2026, and
-the lensed GLIMPSE-17775 fitted on its coadded G395M continuum.
+the lensed GLIMPSE-17775 fitted on its coadded G395M continuum. The run identifiers carry the
+mask in their prefix: `BMKA_` for the archival PRISM fits, `lrds2M_` for the DESI fits, and
+`BMK_45924` for A2744-45924, which was fitted alongside the strongest-break sources. The
+GLIMPSE-17775 fit window (rest-frame 6400-11300 A) lies entirely redward of the mask, so its
+`BMKA_` run repeats the configuration unchanged.
 
-Three of these carry red flags in Figure 8 and enter no statistic in the paper. They are kept
+Each run directory keeps the name of its source, so `chains/supplementary/prism/MoMBH1` holds
+the fit of MoM-BH\*-1 and `chains/supplementary/desi/J000927` the fit of J000927+081109.
+
+Three of these carry red flags in Figure 6 and enter no statistic in the paper. They are kept
 here so that the flag can be checked: `GN9771` presses against the gravity floor of the prior,
-`GN68797` truncates at its ceiling, and `RUBIES-EGS966323` is host dominated with its
-photosphere contributing 37 percent of the fitted flux.
+`GN68797` truncates at its ceiling, and `RUBIES-EGS966323` is host dominated.
 
 ### The experiments
 
-**Geometry ties (Section 4.2).** Each water dot is refit with the cold gravity tied two ways,
-to the gravity that conserves the Eddington ratio along a radial outflow (`_isophi`) and to the
-hot gravity that a starspot requires (`_spot`). Each tie is read against the free two-photosphere
-fit of the same configuration, which sits in the configuration sweep, so a tie comparison uses
-three runs:
-
-| source | free | wind tie | starspot tie |
-|---|---|---|---|
-| WIDE-EGS-2974 | `dust_law_and_configuration_sweep/WIDE_2c_smc_ujy` | `geometry_ties/WIDE_2c_smc_isophi_ujy` | `geometry_ties/WIDE_2c_smc_spot_ujy` |
-| UNCOVER-A2744-20698 | `dust_law_and_configuration_sweep/UNCOVER_2c_smc_r300_ujy_photcal` | `geometry_ties/UNCOVER_2c_smc_r300_isophi_ujy_photcal` | `geometry_ties/UNCOVER_2c_smc_r300_spot_ujy_photcal` |
-| CAPERS-UDS-23216 | `dust_law_and_configuration_sweep/CAPERS_2c_smc_ujy` | `geometry_ties/CAPERS_2c_smc_isophi_ujy` | `geometry_ties/CAPERS_2c_smc_spot_ujy` |
-
-`alternative_configurations/` holds the same two ties under Calzetti attenuation, at
-nlive = 2000 (`_n2k`), and, for UNCOVER-A2744-20698, on the spectrum before photometric
-rescaling. Those are not the runs the paper reads and should not be used to reproduce a
-published number.
-
-**Two-component test (Section 4.4).** Every archival source refit with the hot-plus-cold
-variant. Pair each with its single-photosphere counterpart of the same name under
-`supplementary/prism/` and take the evidence difference from `summary/evidence.csv`. The paper
-quotes 48 constrained sources rather than 49 because `GN9771` is one of the three red-flagged
-fits above and enters no statistic. Its formal difference is the largest in the set at
-Δln Z = +11.1, which is a property of a prior-railed fit rather than of a real cold component.
-
-**Injection and recovery (Section 4.4, Appendix C).** Photospheres of known temperature and
-gravity injected into real instrument noise and refit blind. The Egg injection ships its
-injected truth vector as a separate run directory containing a one-dimensional array in the
-same column order as its chain.
-
-**Dust law and configuration sweep (Section 2.3).** Fits of each source under alternative
-attenuation laws and model configurations, comparing the evidence for each. These span Small
-Magellanic Cloud against Calzetti attenuation (`_smc` against `_cz`), cold-component
-temperature floors (`_cool2600`,
-`_cool2800`, `_cool3000`, `_floor2k`), the PRISM resolution check at R = 300 (`_r300`),
-nebular emission on (`_neb`), the extended attenuation ceiling (`_av3`), and single against
-two photospheres (`_1c` against `_2c`). The water-dot sweep adds the true PRISM resolution
-curve in place of a fixed R = 100 (`_prismR`), the water band left unweighted (`_noupw`) or
-masked entirely (`_h2omask`), the emission-line masks turned off (`_nomask`), a free
-hot-photosphere metallicity (`_mhfree`), a second photosphere allowed up to 4500 K without the
-water-band weight (`_warm`), nlive = 2000 (`_n2k`), the fits on the photometry-rescaled
-UNCOVER-A2744-20698 spectrum (`_photcal`), the same configurations with rest-frame 3400-4100 A
-excluded from the likelihood (`BMKP_`), and that mask plus two isolated residual regions
-(`_xmask`). A name ending in `_long` repeats an identical configuration under a longer
-wall-clock limit. `RS_m3c_smc` is the GN-28074 configuration of the primary fit without the
-break mask. Each driver's docstring states what its run changes. No individual run is cited in
-the text.
+**Host star-formation history (Section 4.4, Figures 5 and 6).** Every fit in the paper
+repeated with the host's star formation forced into its youngest bins, which sets the
+0.16-0.32 dex spread in the Eddington ratio that the population figures add in quadrature and
+the host-mass systematic that the mass-scale figure draws. The archival PRISM refits are
+`BMKY_<source>` (shared driver `fit_breakmask_arch_young.py`) or `BMKA_<source>_youngal`
+(built by `_variant.py` from the source's own driver), the DESI refits are `lrds2MY_<source>`,
+and the primaries are the `BMKP_*_youngal` runs. Runs without a driver of their own name the
+driver they are built from in `variant_of`.
 
 **Photometric anchoring (Section 2.1).** The PRISM spectra of UNCOVER-A2744-20698 and
 CAPERS-UDS-23216 depart from their NIRCam photometry in shape, so each is multiplied by a
@@ -188,43 +166,57 @@ break-masked fit on each spectrum as observed (`BMKP_UNCOVER_2c_smc_r300_ujy`,
 CAPERS-UDS-23216 a straight line (`_photcal`), a band-interpolated curve (`_photcal2`) and a
 piecewise-linear curve (`_photcal3`). Each reader module writes out the curve it applies.
 
-**Host star-formation history (Sections 4.3 and 4.4).** Fits repeated with the host's star
-formation forced into its youngest bins (`_youngal`), which sets the host-mass systematic that
-the mass-scale figure draws. These runs have no driver of their own; `run.json` names the
-driver they are built from in `variant_of`.
+**Dust law and configuration sweep (Section 2.3).** The Egg configuration of the primary fit
+under Calzetti (`DLAW_egg_duste_sfree_zfree_calz_bmkp`) and Milky Way
+(`DLAW_egg_duste_sfree_zfree_mw_bmkp`) attenuation in place of the Small Magellanic Cloud law,
+and the UNCOVER-A2744-20698 primary configuration with two isolated residual regions excluded
+in addition to the break (`_xmask`, on the spectrum as observed and after photometric
+rescaling). No individual run is cited in the text.
 
-**Egg model finalization (Appendix C).** The ladder that selected the adopted Egg
-configuration, spanning the three model families (`base`, `xitb`, `duste`), broadening fixed
-or free (`s123`, `sfree`), stellar metallicity fixed or free (`zfix`, `zfree`), and the
-uncertainty-treatment variants (`globalfloor`, `jitter_floor`, `speccal1`, `dustsep`).
-`egg_duste_sfree_zfree` selected the adopted configuration; the fit in
-`chains/primary/J1025+1402` repeats it with the Ca II H and K cores masked, and the run here is
-the same configuration with those pixels kept.
+**Egg model finalization (Appendix C).** The adopted Egg configuration repeated with one
+prior changed at a time: the birth-cloud dust `dust1` capped at 1 (`d1cap`), fixed at zero
+(`d1fix0`) or clamped at the adopted 0.047 (`d1pin`), every host parameter pinned at its
+adopted value (`hostpin`), the host metallicity pinned (`zsolpin`), and the star-formation-history
+ratios clipped to [-3, 3] (`sfhclamp`). The adopted fit itself, with the Ca II H and K cores
+also excluded, is `chains/primary/J1025+1402`. Each driver prints the change it applies.
 
----
+**Two-component test (not quoted in v2).** Every archival PRISM source refit with the
+hot-plus-cold variant under the break mask (`BMKC_<source>_2c`). Pair each with the
+single-photosphere fit of the same source under `supplementary/prism/` and take the evidence
+difference from `summary/evidence.csv`.
+
+**Injection and recovery (not quoted in v2).** Photospheres of known temperature and gravity
+injected into real instrument noise and refit blind under the break mask: four PRISM mocks at
+the bright and faint tiers (`BMKA_MOCK_R5_*`), a mock at the Cliff's noise (`BMKA_MOCK_cliff_m3`),
+four DESI mocks (`lrds2M_MOCK_R5D_*`), and the Egg injection, which ships its injected truth
+vector as a separate run directory containing a one-dimensional array in the same column order
+as its chain.
+
+**Duplicate reduction (not quoted in v2).** A2744-QSO1 refit on its second available reduction
+(`BMKA_A2744QSO1B`).
 
 ## Line and absorption feature tests
 
 `line_tests/` holds the measurements made directly on the spectra rather than through the
 photospheric fits. Each directory carries the script that made the measurement, its numerical
-result, and every figure drawn from it. `test.json` names the paper section.
+result, and every figure drawn from it. `test.json` names the paper section. Entries marked v1 refer to the line analysis of the first arXiv version, which the second version no longer carries.
 
 | directory | paper | contents |
 |---|---|---|
-| `hbeta_component_ladder` | Section 4.6 | the model-selection suite behind the four-component decomposition |
-| `egg_hbeta_absorber` | Section 4.1 | the Hβ absorber investigation, including the joint and two-absorber refits |
-| `egg_balmer_and_helium_absorption` | Section 4.1, Figure 3 | Hα, Hβ and He I λ10830 troughs in The Egg |
-| `egg_paschen_absorption` | Section 4.1 | Paγ and Paδ absorption at −428 and −355 km/s |
-| `balmer_progression` | Section 4.1 | absorption minima up the Balmer series and the two scenarios they distinguish |
-| `broad_line_helium` | Section 4.6 | broad He I λ5876, the He II λ4686 limits and stack, the λ10830/λ20581 singlet bound |
-| `rosetta_stone_lines` | Section 4.6 | the GN-28074 joint two-grating line fit and its chromosphere test |
-| `narrow_line_diagnostics` | Section 4.6 | [O II] densities, Balmer decrements, the narrow-line budget, the Shirazi and OHNO diagnostics |
-| `uds40579_helium` | Section 4.6 | the UDS-40579 He I trough |
+| `hbeta_component_ladder` | v1 Section 4.6 | the model-selection suite behind the four-component decomposition |
+| `egg_hbeta_absorber` | v1 Section 4.1 | the Hβ absorber investigation, including the joint and two-absorber refits |
+| `egg_balmer_and_helium_absorption` | v1 Section 4.1, Figure 3 | Hα, Hβ and He I λ10830 troughs in The Egg |
+| `egg_paschen_absorption` | v1 Section 4.1 | Paγ and Paδ absorption at −428 and −355 km/s |
+| `balmer_progression` | v1 Section 4.1 | absorption minima up the Balmer series and the two scenarios they distinguish |
+| `broad_line_helium` | v1 Section 4.6 | broad He I λ5876, the He II λ4686 limits and stack, the λ10830/λ20581 singlet bound |
+| `rosetta_stone_lines` | v1 Section 4.6 | the GN-28074 joint two-grating line fit and its chromosphere test |
+| `narrow_line_diagnostics` | v1 Section 4.6 | [O II] densities, Balmer decrements, the narrow-line budget, the Shirazi and OHNO diagnostics |
+| `uds40579_helium` | v1 Section 4.6 | the UDS-40579 He I trough |
 | `vblue95_forecast` | Section 5.2, Figure 7 | the uniform v_blue,95 wind-launch measurements and P Cygni profile fits for every point in the wind-launch panel |
 
 ### The component-selection suite
 
-Section 4.6 states that the four-component decomposition is selected by model comparison
+Section 4.6 of the first arXiv version states that the four-component decomposition is selected by model comparison
 rather than imposed. The suite behind that sentence is in `line_tests/hbeta_component_ladder`.
 It fits The Egg's Hβ complex over ±4500 km/s against a quadratic continuum, with the absorber
 present in every model, and compares every combination of components on the same pixels:
@@ -263,15 +255,29 @@ Two things are not redistributed here. The observed spectra belong to their orig
 The Egg), and the TLUSTY model library is the one published by Liu et al. 2026. A driver
 expects both to be present at the paths set at the top of the shared modules.
 
-The 28 DESI fits share one parameterized driver, `code/fit_desi_lrds2_roar.py`, which selects
-a source by name. The host star-formation-history runs are built by `code/_variant.py` from the
-driver named in their `variant_of` field,
+Most archival PRISM fits share one driver, `code/fit_breakmask_arch.py`, which takes the source
+stem and reads the redshift and spectrum from that source's own configuration module
+(`code/fit_<stem>.py`, kept for that purpose):
+
+```bash
+python code/fit_breakmask_arch.py RUBIES_EGS28812 --pool 3
+```
+
+The sources whose spectra come from a different archive have self-contained drivers
+(`code/bmka_fit_<stem>.py`), as do the mocks, the Cliff and GLIMPSE-17775. The 28 DESI fits
+share `code/fit_desi_lrds2_breakmask.py`, which selects a source by name, and A2744-45924 was
+fitted with `code/fit_breakmask.py`. The young-host refits use `fit_breakmask_arch_young.py`,
+`fit_desi_lrds2_youngal_bmk.py`, or `code/_variant.py` applied to the driver named in their
+`variant_of` field,
 
 ```bash
 python code/_variant.py bmkp_fit_wide_2c_smc_ujy youngal --pool 8
 ```
 
-Every other run has its own driver, named in its `run.json`.
+Every other run has its own driver, named in its `run.json`. The unmasked configuration
+modules that several masked drivers import (`fit_<stem>.py`, `fit_desi_lrds2_roar.py`,
+`fit_glimpse17775.py`, `fit_MOCK_*.py`) are kept as code only; no run made with them is
+released.
 
 ---
 
@@ -286,12 +292,13 @@ sequence, which preserves the distribution exactly. `run.json` records both coun
 **Precision.** Samples are stored at `float32`, roughly seven significant digits, which is far
 finer than any posterior width in this work but is not bit-identical to the `float64` originals.
 
-**Parameter names.** Taken from the run log of each fit, which records the model's own
-parameter list at build time. Five runs had no surviving log. Four take their names from a run
-of identical configuration and identical dimension, and GLIMPSE-17775 takes its names from the
-model rebuilt directly from its driver. `run.json` records the provenance in `parameter_source`.
+**Parameter names.** Taken from the run log of each fit where one survives, which records
+the model's own parameter list at build time. Where it does not, the masked run uses the
+parameter list of the configuration it clones, which builds an identical model and differs only
+in the pixels entering the likelihood; the chain dimension was checked against that list in
+every case. `run.json` records the provenance in `parameter_source`.
 
-**Evidence.** `summary/evidence.csv` gives ln Z and its sampling uncertainty for all 378
+**Evidence.** `summary/evidence.csv` gives ln Z and its sampling uncertainty for all 250
 posterior runs. The dynesty result objects themselves are not redistributed. They run to
 several gigabytes and require a matching dynesty version to unpickle, and every evidence
 comparison in the paper is reproducible from the table.
@@ -301,13 +308,14 @@ and `logL_cold` are base-ten log of luminosity in solar units, `sigma_smooth` is
 `mh_idx` indexes the library metallicity grid, and `dust2_gal` is the V-band optical depth of
 the shared screen.
 
-**Known issue.** `egg_model_finalization/egg_liu2026_exact.BADPRIOR` was run with a prior
-specification error found afterwards and is superseded by `egg_liu2026_corrected`. It is kept
-so the correction can be seen, and `run.json` records the issue. Do not use it for science.
+**Evidence comparisons across the break mask.** Evidence values are comparable only between
+runs fitted to the same pixels. The Egg primary fit excludes the Ca II H and K cores as well as
+the break, so its ln Z is not on the same footing as the Egg finalization variants.
 
-**Not included.** Superseded development ladders that predate the adopted configuration
-(the `m3a` through `m3d` model-development series and the earlier Egg `*_prospector_tlusty`
-fits) are not released. No number in the paper depends on them.
+**Not included.** Fits that kept rest-frame 3400-4100 A in the likelihood, the geometry-tie
+refits of the water dots, and the superseded development ladders that predate the adopted
+configuration are not released. The paper adopts the break mask throughout, and no number in it
+depends on those runs.
 
 ---
 

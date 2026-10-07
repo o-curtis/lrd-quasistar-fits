@@ -2,7 +2,7 @@
  "run_id": "BMKP_CAPERS_2c_smc_ujy_youngal",
  "family": "experiments/host_prior",
  "target": "BMKP_CAPERS_2c_smc_ujy_youngal",
- "paper_section": "Sections 4.3 and 4.4",
+ "paper_section": "Section 4.4, Figures 5 and 6",
  "parameters": [
   "teff",
   "logg",
@@ -73,5 +73,6 @@
   ]
  },
  "variant": "youngal",
- "variant_of": "bmkp_fit_capers_2c_smc_ujy.py"
+ "variant_of": "bmkp_fit_capers_2c_smc_ujy.py",
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
 }

@@ -1,0 +1,56 @@
+{
+ "run_id": "BMKP_egg_duste_sfree_zfree_hostpin",
+ "family": "experiments/egg_model_finalization",
+ "target": "BMKP_egg_duste_sfree_zfree_hostpin",
+ "paper_section": "Appendix C",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "sigma_smooth",
+  "mh_idx",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "dust1",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "xi_mtb",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "run log",
+ "n_samples_released": 22706,
+ "n_samples_original": 22706,
+ "ndim": 18,
+ "driver": "fit_egg_bmkp_hostpin.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   4495.0901877562765,
+   4496.143068880616,
+   4497.238123601404
+  ],
+  "logg": [
+   -3.028553337002914,
+   -3.0103596348978527,
+   -3.0022237731868215
+  ],
+  "logL_star": [
+   9.88945652200884,
+   9.889698483388418,
+   9.889941123913145
+  ],
+  "phi": [
+   264.12296538284824,
+   269.10808404504235,
+   280.6646111935063
+  ]
+ },
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood"
+}

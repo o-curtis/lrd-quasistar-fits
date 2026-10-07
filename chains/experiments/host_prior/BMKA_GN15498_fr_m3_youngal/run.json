@@ -1,0 +1,54 @@
+{
+ "run_id": "BMKA_GN15498_fr_m3_youngal",
+ "family": "experiments/host_prior",
+ "target": "BMKA_GN15498_fr_m3_youngal",
+ "paper_section": "Section 4.4, Figures 5 and 6",
+ "parameters": [
+  "teff",
+  "logg",
+  "logL_star",
+  "logmass",
+  "logzsol",
+  "dust2_gal",
+  "logsfr_ratios_1",
+  "logsfr_ratios_2",
+  "logsfr_ratios_3",
+  "logsfr_ratios_4",
+  "logsfr_ratios_5",
+  "duste_umin",
+  "duste_qpah",
+  "duste_gamma"
+ ],
+ "parameter_source": "parent configuration (identical model, host forced young)",
+ "n_samples_released": 43656,
+ "n_samples_original": 43656,
+ "ndim": 14,
+ "driver": "_variant.py",
+ "spectrum_figure": null,
+ "summary": {
+  "teff": [
+   3492.121028977981,
+   3765.404181037043,
+   3925.5135810235097
+  ],
+  "logg": [
+   -2.8694017092550244,
+   -2.663245952049513,
+   -2.526223027341981
+  ],
+  "logL_star": [
+   13.683797158064996,
+   13.713059510649536,
+   13.79267368650886
+  ],
+  "phi": [
+   40.852476470895006,
+   57.85534264608785,
+   91.54193306114185
+  ]
+ },
+ "summary_cold_component": null,
+ "break_mask": "rest-frame 3400-4100 A excluded from the likelihood",
+ "variant": "youngal",
+ "variant_of": "bmka_fit_GN15498_fr.py"
+}
